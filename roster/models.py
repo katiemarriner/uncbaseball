@@ -4,11 +4,18 @@ from django.db import models
 class Player(models.Model):
     name = models.CharField(max_length=50)
     jersey = models.IntegerField(max_length=2)
-    # height = models.IntegerField()
+    height = models.IntegerField(max_length=4)
     weight = models.IntegerField(max_length=3)
-    highschool = models.CharField(max_length=100)
-    about = models.TextField()
-    imgurl = models.URLField()
+    previousschool = models.CharField(max_length=100)
+    city = models.CharField(max_length=50)
+    imgurl = models.URLField(null=True)
+    position = models.CharField(max_length=5)
+    hand = models.CharField(max_length=3)
+    highschool = models.TextField()
+    freshman = models.TextField(null=True)
+    sophomore = models.TextField(null=True)
+    junior = models.TextField(null=True)
+    senior = models.TextField(null=True)
     # SHORTSTOP = 'SS'
     # PITCHER = 'PT'
     #POSITION_CHOICES = (
@@ -22,3 +29,9 @@ class Player(models.Model):
         
     def __unicode__(self):
         return U'%s %s' %(self.jersey, self.name)
+    
+class Staff(models.Model):
+    name = models.CharField(max_length=50)
+    position = models.CharField(max_length=50)
+    school = models.CharField(max_length=50)
+    experience = models.IntegerField(max_length=2)

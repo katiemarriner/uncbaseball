@@ -8,29 +8,22 @@ output =""
 usock = urllib2.urlopen(url)
 html_data = usock.read()
 usock.close()
-print "Socket Opened, html_data stored and socket closed"
+print "Socket Opened, html_data stored and scoket closed"
 #print html_data
 
 soup = BeautifulSoup(html_data)
-tr_tag = soup.find_all('tr'.contents)
-# type(tag)
 
-print tr_tag
+#print "Make it pretty"
+#print soup
 
-# print "Make it pretty"
-# print soup
-
-print "tag has printed"
-
-tempData = soup.find_all('tbody.tr')
+tempData = soup.find_all("odd")
 for names in tempData:
-   output += names.string
+    output += names.string
 
 output += " has worked for "
 
-print tempData
+print(soup.prettify())
 
-print "tempData has printed"
 
 tempData = soup.find_all('h4')
 for companies in tempData:
