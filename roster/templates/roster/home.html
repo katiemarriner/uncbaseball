@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>This is the Roster Home</title>
-</head>
-<body>
-    {{ player_count }}
-</body>
+<!--roster/templates/roster/home.html-->
 
-</html>
+{% extends "base.html" %}
+{% load url from future %}
+
+{% block content %}
+
+<p><a href="{% url 'roster_player_list' %}">List of Players</a></p>
+{% endblock %}

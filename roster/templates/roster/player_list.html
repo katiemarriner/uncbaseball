@@ -1,0 +1,15 @@
+<!--roster/templates/roster/player_list.html-->
+
+{% extends "base.html" %}
+{% block content %}
+<h2>All Players</h2>
+<ul>
+    {% for player in players %}
+    {# Each "player" is a player model object. #}
+    <li><a href="{{ player.id }}">{{ player.name }}</a></li>
+    {% endfor %}
+</ul>
+
+<div class="container">
+</div>
+{% endblock %}

@@ -4,9 +4,9 @@ from django.db import models
 class Player(models.Model):
     name = models.CharField(max_length=50)
     jersey = models.IntegerField(max_length=2)
-    height = models.IntegerField(max_length=4)
+    height = models.CharField(max_length=4)
     weight = models.IntegerField(max_length=3)
-    previousschool = models.CharField(max_length=100)
+    previousschool = models.CharField(max_length=100, null=True)
     city = models.CharField(max_length=50)
     imgurl = models.URLField(null=True)
     position = models.CharField(max_length=5)
@@ -25,13 +25,18 @@ class Player(models.Model):
     #position = models.CharField(max_length=2,
     #                            choices=POSITION_CHOICES)
     class Meta(object):
+        verbose_name_plural = "Players"
         ordering = ('jersey', 'name')
         
     def __unicode__(self):
         return U'%s %s' %(self.jersey, self.name)
     
-class Staff(models.Model):
+class Coach(models.Model):
     name = models.CharField(max_length=50)
     position = models.CharField(max_length=50)
     school = models.CharField(max_length=50)
     experience = models.IntegerField(max_length=2)
+    
+    def save(self, *args, **kwargs): # when saved, make sure the name is uppercase
+        self.name = self.name.upper()
+        super(Course, self).save(*args, **kwargs)
