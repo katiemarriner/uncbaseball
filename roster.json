@@ -1,0 +1,13 @@
+[
+    {
+        "pk": 1,
+        "model": "roster.Player",
+        "fields": {
+            "name": "Skye Bolt",
+            "instructor": "Steven King",
+            "description": "Learn data-driven storytelling and presentation.",
+            "term": "Spring 2013",
+            "callnumber": "J583"
+        }
+    }
+]
