@@ -40,6 +40,9 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admindocs',
     'django.contrib.humanize',
+    #'oauth_tokens',
+    #'taggit',
+    #'twitter-api',
     'roster',
 )
 

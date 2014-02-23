@@ -16,14 +16,9 @@ class Player(models.Model):
     sophomore = models.TextField(null=True)
     junior = models.TextField(null=True)
     senior = models.TextField(null=True)
-    # SHORTSTOP = 'SS'
-    # PITCHER = 'PT'
-    #POSITION_CHOICES = (
-    #    (SHORTSTOP, 'Shortstop'),
-    #    (PITCHER, 'Pitcher'),
-    #)
-    #position = models.CharField(max_length=2,
-    #                            choices=POSITION_CHOICES)
+    #twitterKey = models.IntegerField(null=True, max_length=50)
+    #twitter = models.CharField(null=True, max_length=50)
+    #major = models.CharField(max_length=100)
     class Meta(object):
         verbose_name_plural = "Players"
         ordering = ('jersey', 'name')

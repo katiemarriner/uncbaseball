@@ -3,13 +3,25 @@
 {% extends "base.html" %}
 {% block content %}
 <h2>All Players</h2>
-<ul>
-    {% for player in players %}
-    {# Each "player" is a player model object. #}
-    <li><a href="{{ player.id }}">{{ player.name }}</a></li>
-    {% endfor %}
-</ul>
-
-<div class="container">
-</div>
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Year</th>
+        </tr>
+    </thead>
+    
+    <tbody>
+        {% for player in players %}
+        {# Each "player" is a player model object. #}
+        <tr>
+            <td>{{ player.jersey }}</td>
+            <td><a href="{{ player.id }}">{{ player.name }}</a></td>
+            <td>{{ player.position }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
 {% endblock %}
