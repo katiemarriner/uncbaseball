@@ -2,26 +2,43 @@
 
 {% extends "base.html" %}
 {% block content %}
-<h2>All Players</h2>
-<table>
-    <thead>
-        <tr>
+<div class="col-md-12">
+    <h1>UNC Baseball Roster 2014</h1>
+</div>
+
+<div class="col-md-8">
+
+<table class="player-table">
+    <thead class="player-head">
+        <tr class="player-head-row">
             <th>#</th>
             <th>Name</th>
             <th>Position</th>
             <th>Year</th>
+            <th>Hometown</th>
+            <th>Previous School</th>
         </tr>
     </thead>
     
-    <tbody>
+    <tbody class="player-body">
         {% for player in players %}
         {# Each "player" is a player model object. #}
-        <tr>
+        <tr class="player-data">
             <td>{{ player.jersey }}</td>
             <td><a href="{{ player.id }}">{{ player.name }}</a></td>
             <td>{{ player.position }}</td>
+            <td>Freshman</td>
+            <td>{{ player.city }}</td>
+            <td>{{ player.previousschool }}</td>
         </tr>
         {% endfor %}
     </tbody>
 </table>
+
+</div>
+
+<div class="col-md-4">
+<a class="twitter-timeline" href="https://twitter.com/DiamondHeels" data-widget-id="437763363121008641">Tweets by @DiamondHeels</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
 {% endblock %}

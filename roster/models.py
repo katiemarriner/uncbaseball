@@ -8,6 +8,7 @@ class Player(models.Model):
     weight = models.IntegerField(max_length=3)
     previousschool = models.CharField(max_length=100, null=True)
     city = models.CharField(max_length=50)
+    year = models.CharField(max_length=20)
     imgurl = models.URLField(null=True)
     position = models.CharField(max_length=5)
     hand = models.CharField(max_length=3)

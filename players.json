@@ -10,9 +10,10 @@
             "position": "OF",
             "hand": "L/R",
             "city": "Waxhaw, N.C.",
+            "year": "Sophomore",
             "previousschool": "Charlotte Latin",
             "highschool": "Ranked among the top 500 players in the country by Perfect Game and No. 35 in the state of North Carolina - Tabbed No. 26 in the state by Impact Baseball - Very accomplished in the classroom - Coached by Kim Cousar at Charlotte Latin School in Charlotte, N.C. - Four-year letterman at shortstop and second base - Also played football for Charlotte Latin from freshman through junior year as a wide receiver and running back - Named to the Headmaster's List all four years.",
-            "freshman": "Appeared in 18 games off the bench as a freshman - Hit .222 and scored four runs - Got his first career hit against Stony Brook (2/23) - Also scored his first collegiate run later in the Stony Brook series (2/24) - Had a pinch-hit single against Miami (3/16) - Summer 2013: Spent the summer with the Baltimore Redbirds of the Cal Ripken League and hit .209 in 41 games with two doubles, six RBIs and 10 stolen bases.",
+            "freshman": "Appeared in 18 games off the bench as a freshman Hit .222 and scored four runs - Got his first career hit against Stony Brook (2/23) - Also scored his first collegiate run later in the Stony Brook series (2/24) - Had a pinch-hit single against Miami (3/16) - Summer 2013: Spent the summer with the Baltimore Redbirds of the Cal Ripken League and hit .209 in 41 games with two doubles, six RBIs and 10 stolen bases.",
             "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/NU/NUEQZPPVOQUOFAL.20130826190718.jpg"
         }
     },
@@ -27,6 +28,7 @@
             "position": "OF",
             "hand": "R/R",
             "city": "Pikeville, N.C.",
+            "year": "Freshman",
             "previousschool": "C.B. Aycock",
             "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/100/PH/PHXVJMLKIDPNWUM.20130826190843.jpg"
         }
@@ -42,6 +44,7 @@
             "position": "OF/2B",
             "hand": "L/R",
             "city": "Douglasville, G.A.",
+            "year": "Freshman",
             "previousschool": "Chapel Hill High School",
             "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/100/TI/TIJTOZPPNSWDEIH.20130826191024.jpg"
         }
@@ -57,6 +60,7 @@
             "position": "2B/SS",
             "hand": "L/R",
             "city": "Chapel Hill, N.C.",
+            "year": "Freshman",
             "previousschool": "Jordan",
             "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/100/PA/PAXXHVRGECZWTGK.20130826190754.jpg"
         }
@@ -72,6 +76,7 @@
             "position": "SS",
             "hand": "R/R",
             "city": "Huntersville, N.C.",
+            "year": "Junior",
             "previousschool": "Hopewell",
             "highschool": "Coached by Chuck Greeson and David Brown at Hopewell High School - Ranked the No. 16 player in North Carolina by Impact Baseball - Rated a top-1000 prospect by Perfect Game - Earned all-conference honors as a sophomore - Missed his junior season due to injury.",
             "freshman": "Appeared in 62 games with 62 starts, 32 in the outfield, 10 at third base and 20 at shortstop - Posted a .269 average (60-223), the fifth highest among consistent starters - Scored 40 runs and drove in 24 runs - Tallied 14 doubles and one triple - Stole 14 bases in 17 attempts, tying him at second on the team - Drew the third highest number of walks on the team with 36 - Notched a hit and RBI in his collegiate debut against Xavier (2/17) - Tallied two hits, both of which were doubles, and two RBIs in back-to-back games against Xavier (2/18) and Wright State (2/24) - Drew two walks on five different occasions over the season - Notched a season-high four hits against Virginia (4/13) - Scored three runs against Wright State (2/24) - Drove in three runs off two hits while scoring a run against Wake Forest (3/31) - Stole two bases and tallied one hit and one RBI against Princeton (3/20).",
@@ -90,6 +95,7 @@
             "position": "INF/OF",
             "hand": "R/R",
             "city": "Durham, N.C.",
+            "year": "Sophomore",
             "previousschool": "Jordan",
             "highschool": "Ranked No. 414 in the nation by Perfect Game and No. 14 in the state of North Carolina - Rated No. 16 in the state by Impact Baseball - Coached by former Tar Heel Devy Bell (1984-87) at Jordan High School in Durham, N.C. - Named All-Conference four times and All-State twice - Team MVP sophomore and senior seasons - Conference Player of the Year as junior - 16U WWBA National Champions with Canes baseball - Tournament of Stars participant - Also played football and basketball.",
             "freshman": "Appeared in 34 games with seven starts in the outfield - Hit .188 on the year with five RBIs and eight runs scored - Tallied two doubles and did not commit an error - Recorded his first career hit against Stony Brook (2/24) - Scored his first collegiate run and registered his first career RBI against Texas A&M (3/3) - Went 2 for 2 with two RBIs and two runs scored against Princeton (3/19) - Summer 2013: Appeared in 27 games for the High Point-Thomasville Hi-Toms of the Coastal Plain League - Hit .160, had seven RBIs and scored 13 runs with one double.",
@@ -100,23 +106,6 @@
         "pk": 7,
         "model": "roster.Player",
         "fields": {
-            "name": "Michael Massardo",
-            "jersey": 1,
-            "weight": 170,
-            "height": "5-7",
-            "position": "OF",
-            "hand": "L/R",
-            "city": "Waxhaw, N.C.",
-            "previousschool": "Charlotte Latin",
-            "highschool": "Ranked among the top 500 players in the country by Perfect Game and No. 35 in the state of North Carolina - Tabbed No. 26 in the state by Impact Baseball - Very accomplished in the classroom - Coached by Kim Cousar at Charlotte Latin School in Charlotte, N.C. - Four-year letterman at shortstop and second base - Also played football for Charlotte Latin from freshman through junior year as a wide receiver and running back - Named to the Headmaster's List all four years.",
-            "freshman": "Appeared in 18 games off the bench as a freshman - Hit .222 and scored four runs - Got his first career hit against Stony Brook (2/23) - Also scored his first collegiate run later in the Stony Brook series (2/24) - Had a pinch-hit single against Miami (3/16) - Summer 2013: Spent the summer with the Baltimore Redbirds of the Cal Ripken League and hit .209 in 41 games with two doubles, six RBIs and 10 stolen bases.",
-            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/NU/NUEQZPPVOQUOFAL.20130826190718.jpg"
-        }
-    },
-    {
-        "pk": 8,
-        "model": "roster.Player",
-        "fields": {
             "name": "Parks Jordan",
             "jersey": 8,
             "weight": 190,
@@ -124,12 +113,48 @@
             "position": "OF/1B",
             "hand": "L/R",
             "city": "Winston-Salem, N.C.",
+            "year": "Senior",
             "previousschool": "Glenn",
             "highschool": "Played for coach John Fowler at Robert B. Glenn High School - Left-handed hitter with a great swing and polished approach - Versatile infielder with great instincts - Ranked the No. 6 prospect in North Carolina by Perfect Game and No. 21 in the state by Impact Baseball - Rated No. 237 nationally - Two-time all-state pick, two-time conference player of the year and three-time all-conference honoree - Named 2009 Piedmont Triad 3A Conference Player of the Year - 2009 North Carolina State Games participant - Earned 2009 All-America honors from Perfect Game - Set school records in batting average, triples and on base percentage - Member of A-B Honor Roll.",
             "freshman": "Appeared in 33 games with four starts on the year - Hit .179 (5-28) with five runs and six RBI - Started the first three games of the season in left field - Tallied his first career hit against Davidson (3/2) - Scored the first run of his collegiate career in the win at USC (2/19) - Doubled against UNC Wilmington (3/22). Summer 2011: Played in 21 games for the Baltimore Redbirds in the Cal Ripken Collegiate Baseball League - Finished second on the team with a .333 average (25-75) - Scored 14 runs and had 11 RBI with four doubles and two triples.",
             "sophomore": "Appeared in 60 games with 57 starts, 51 in the outfield and six at first base - Hit .270 (51-189) on the year with 29 runs scored and 31 RBI - Tallied seven doubles and four triples - Notched a career-high seven game hit streak from May 4-13 - Finished fourth on the team with seven stolen bases in 11 attempts - Registered two hits or more in 12 games - Posted a perfect fielding percentage - Registered three hits, two RBI and two runs in his first start of the season against Wright State (2/24) - Put up another three-hit performance with three RBI and one run scored against Wake Forest (3/30) - Drove in three runs from four hits, including a double and a triple, while scoring two runs against Duke (5/12) - Finished on a strong NCAA performance, scoring two runs and registered two hits and one RBI against St. John's (6/3). Summer 2012: Appeared in 34 games as an outfielder for the Baltimore Redbirds in the Cal Ripken Collegiate Baseball League - Hit .219 (25-114) on the summer with 15 runs scored and 18 RBI - Tallied four doubles, one triple, two home runs and seven stolen bases.",
             "junior": "Appeared in 62 games and started 38 at designated hitter and in the outfield - Finished the year hitting .252 (40-159), scoring 25 runs and tallying 27 RBIs - Posted a perfect fielding percentage in 73 chances, his third consecutive season without an error - Went 1 for 2 with a pair of runs scored in the CWS win over NC State (6/20) - Worked an 8-pitch walk to score the winning run in the Super Regional-clinching win over South Carolina (6/11) - Had a pair of hits in the regional win over FAU (6/3) - Went 3 for 4 with two RBIs and a run scored against Duke (4/21) - Reached base five times and scored a season-high three runs while going 2 for 2 with two RBIs and three walks against Elon (4/17).",
             "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/YV/YVJXQFQROUJCYMS.20130826190636.jpg"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "roster.Player",
+        "fields": {
+            "name": "Henry Sisson",
+            "jersey": 11,
+            "weight": 180,
+            "height": "6-2",
+            "position": "LHP",
+            "hand": "L/L",
+            "city": "Chevy Chase, Md.",
+            "year": "Sophomore",
+            "previousschool": "Davidson",
+            "highschool": "Appeared in 15 games and started 9 for the Wildcats ¥ Posted a 4-3 record with a 4.40 ERA ¥ Threw 73.2 innings allowing 36 earned runs ¥ Struck out 52 batters while allowing 34 walks.",
+            "imgurl": "https://www.unitedchem.com/sites/default/files/default_images/placeholder_0.jpg"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "roster.Player",
+        "fields": {
+            "name": "Landon Lassiter",
+            "jersey": 12,
+            "weight": 180,
+            "height": "6-1",
+            "position": "INF",
+            "hand": "R/R",
+            "city": "High Point, N.C.",
+            "year": "Sophomore",
+            "previousschool": "North Davidson",
+            "highschool": "Drafted in the 16th round (513) of the 2012 MLB First-Year Player Draft by the Arizona Diamondbacks ¥ Ranked No. 266 in the nation by Perfect Game and tabbed No. 6 in the state of North Carolina ¥ Tabbed No. 7 in the state by Impact Baseball ¥ Coached by Mike Meadows at North Davidson High School in Lexington, N.C. ¥ Played varsity baseball all four years and varsity basketball freshman and sophomore year ¥ Named CPC All-Conference sophomore, junior and senior seasons ¥ Named All-State senior year ¥ Participated in the East Coast Pro Showcase, N.C. vs. S.C. All-Star Game and the Tournament of Stars.",
+            "freshman": "Earned consensus freshman All-America honors (Baseball America, Perfect Game, NCBWA and Louisville Slugger) after a standout first season in Chapel Hill ¥ Appeared in 69 games with 67 starts, 57 of those at designated hitter ¥ Hit .358 (92-257), the second highest percentage on the team, with 28 RBIs ¥ Scored 75 runs, second-most on the team and tied for eighth in school history ¥ Had the second most walks on the team with 53 which also tied for fifth in school history ¥ Recorded a .447 slugging percentage and a team-high .491 on-base percentage ¥ Tallied 14 doubles and three triples ¥ Stole eight bases in 12 attempts ¥ Had 29 multi-hit games on the year, including four hits on five occasions ¥ Named to the NCAA Chapel Hill All-Regional team after going 9 for 20 with five runs in four games (5/31-6/3) ¥ Totaled a season-high three RBIs against James Madison while going 3 for 3 and scoring two runs (5/7) ¥ Made the Astros Foundation College Classic All-Tournament team after going 6 for 12 with five runs in three games (3/1-3) ¥ Went 4 for 4 with two RBIs and two runs scored against Seton Hall (2/17) ¥ Summer 2013: Played in 22 games with the Chatham Anglers of the Cape Cod League ¥ Hit .250 with eight runs, two doubles and seven RBIs ¥ Was walked 23 times and stole two bases.",
+            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/CF/CFVHPQJFFITDRQH.20131203214809.jpg"
         }
     }
 ]
