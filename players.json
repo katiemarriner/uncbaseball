@@ -89,7 +89,7 @@
         "model": "roster.Player",
         "fields": {
             "name": "Alex Raburn",
-            "jersey": 8,
+            "jersey": 6,
             "weight": 180,
             "height": "5-10",
             "position": "INF/OF",
@@ -103,7 +103,7 @@
         }
     },
     {
-        "pk": 7,
+        "pk": 8,
         "model": "roster.Player",
         "fields": {
             "name": "Parks Jordan",
@@ -123,7 +123,7 @@
         }
     },
     {
-        "pk": 8,
+        "pk": 9,
         "model": "roster.Player",
         "fields": {
             "name": "Henry Sisson",
@@ -135,12 +135,12 @@
             "city": "Chevy Chase, Md.",
             "year": "Sophomore",
             "previousschool": "Davidson",
-            "highschool": "Appeared in 15 games and started 9 for the Wildcats ¥ Posted a 4-3 record with a 4.40 ERA ¥ Threw 73.2 innings allowing 36 earned runs ¥ Struck out 52 batters while allowing 34 walks.",
+            "highschool": "Appeared in 15 games and started 9 for the Wildcats - Posted a 4-3 record with a 4.40 ERA - Threw 73.2 innings allowing 36 earned runs - Struck out 52 batters while allowing 34 walks.",
             "imgurl": "https://www.unitedchem.com/sites/default/files/default_images/placeholder_0.jpg"
         }
     },
     {
-        "pk": 9,
+        "pk": 10,
         "model": "roster.Player",
         "fields": {
             "name": "Landon Lassiter",
@@ -152,9 +152,45 @@
             "city": "High Point, N.C.",
             "year": "Sophomore",
             "previousschool": "North Davidson",
-            "highschool": "Drafted in the 16th round (513) of the 2012 MLB First-Year Player Draft by the Arizona Diamondbacks ¥ Ranked No. 266 in the nation by Perfect Game and tabbed No. 6 in the state of North Carolina ¥ Tabbed No. 7 in the state by Impact Baseball ¥ Coached by Mike Meadows at North Davidson High School in Lexington, N.C. ¥ Played varsity baseball all four years and varsity basketball freshman and sophomore year ¥ Named CPC All-Conference sophomore, junior and senior seasons ¥ Named All-State senior year ¥ Participated in the East Coast Pro Showcase, N.C. vs. S.C. All-Star Game and the Tournament of Stars.",
-            "freshman": "Earned consensus freshman All-America honors (Baseball America, Perfect Game, NCBWA and Louisville Slugger) after a standout first season in Chapel Hill ¥ Appeared in 69 games with 67 starts, 57 of those at designated hitter ¥ Hit .358 (92-257), the second highest percentage on the team, with 28 RBIs ¥ Scored 75 runs, second-most on the team and tied for eighth in school history ¥ Had the second most walks on the team with 53 which also tied for fifth in school history ¥ Recorded a .447 slugging percentage and a team-high .491 on-base percentage ¥ Tallied 14 doubles and three triples ¥ Stole eight bases in 12 attempts ¥ Had 29 multi-hit games on the year, including four hits on five occasions ¥ Named to the NCAA Chapel Hill All-Regional team after going 9 for 20 with five runs in four games (5/31-6/3) ¥ Totaled a season-high three RBIs against James Madison while going 3 for 3 and scoring two runs (5/7) ¥ Made the Astros Foundation College Classic All-Tournament team after going 6 for 12 with five runs in three games (3/1-3) ¥ Went 4 for 4 with two RBIs and two runs scored against Seton Hall (2/17) ¥ Summer 2013: Played in 22 games with the Chatham Anglers of the Cape Cod League ¥ Hit .250 with eight runs, two doubles and seven RBIs ¥ Was walked 23 times and stole two bases.",
+            "highschool": "Drafted in the 16th round (513) of the 2012 MLB First-Year Player Draft by the Arizona Diamondbacks - Ranked No. 266 in the nation by Perfect Game and tabbed No. 6 in the state of North Carolina - Tabbed No. 7 in the state by Impact Baseball - Coached by Mike Meadows at North Davidson High School in Lexington, N.C. - Played varsity baseball all four years and varsity basketball freshman and sophomore year - Named CPC All-Conference sophomore, junior and senior seasons - Named All-State senior year - Participated in the East Coast Pro Showcase, N.C. vs. S.C. All-Star Game and the Tournament of Stars.",
+            "freshman": "Earned consensus freshman All-America honors (Baseball America, Perfect Game, NCBWA and Louisville Slugger) after a standout first season in Chapel Hill - Appeared in 69 games with 67 starts, 57 of those at designated hitter - Hit .358 (92-257), the second highest percentage on the team, with 28 RBIs - Scored 75 runs, second-most on the team and tied for eighth in school history - Had the second most walks on the team with 53 which also tied for fifth in school history - Recorded a .447 slugging percentage and a team-high .491 on-base percentage - Tallied 14 doubles and three triples - Stole eight bases in 12 attempts - Had 29 multi-hit games on the year, including four hits on five occasions - Named to the NCAA Chapel Hill All-Regional team after going 9 for 20 with five runs in four games (5/31-6/3) - Totaled a season-high three RBIs against James Madison while going 3 for 3 and scoring two runs (5/7) - Made the Astros Foundation College Classic All-Tournament team after going 6 for 12 with five runs in three games (3/1-3) - Went 4 for 4 with two RBIs and two runs scored against Seton Hall (2/17) - Summer 2013: Played in 22 games with the Chatham Anglers of the Cape Cod League - Hit .250 with eight runs, two doubles and seven RBIs - Was walked 23 times and stole two bases.",
             "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/CF/CFVHPQJFFITDRQH.20131203214809.jpg"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "roster.Player",
+        "fields": {
+            "name": "Zach Daly",
+            "jersey": 16,
+            "weight": 180,
+            "height": "6-2",
+            "position": "OF",
+            "hand": "L/L",
+            "city": "Gastonia, N.C.",
+            "year": "Sophomore",
+            "previousschool": "Forestview",
+            "highschool": "Ranked among the top 500 in the country and No. 35 in the state of North Carolina by Perfect Game - Ranked the No. 3 player in the state by Impact Baseball - High school teammate of Reilly Hovis - Four-year center fielder - Coached by Brian Horne at Forestview High School in Gastonia, N.C. - Member of the Beta Club, National Honor Society and Technical Honor Society - Also played as a forward on Forestview's soccer team in 2008 and 2009.",
+            "freshman": "Appeared in 12 games off the bench during his first season - Scored four runs and hit .300 as a pinch hitter and outfielder - Recorded his first career hit and scored his first career run in his first collegiate game against St. John's (2/27) - Went 1 for 2 with a run scored against Clemson (5/24) - Summer 2013: Played in 28 games for the Gastonia Grizzlies of the Coastal Plain League - Hit .235 while racking up 15 RBIs, 16 runs scored, five doubles, one triple and a home run.",
+            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/VI/VIEOLYZFBRHKRVN.20130826190435.jpg"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "roster.Player",
+        "fields": {
+            "name": "Chris McCue",
+            "jersey": 17,
+            "weight": 155,
+            "height": "6-0",
+            "position": "RHP",
+            "hand": "R/R",
+            "city": "Charlotte, N.C.",
+            "year": "Junior",
+            "previousschool": "Ardrey Kell",
+            "highschool": "Coached by Hal Bagwell at Ardrey Kell - Drafted in the 35th round (1079th) of the 2011 MLB Draft by the New York Yankees - Ranked No. 11 in the state of North Carolina and No. 135 in the nation by Perfect Game - Impact Baseball ranks him the No. 17 player in North Carolina - Listed as the No. 44 right-hander in the country by Perfect Game - Named an Under Armour Preseason All-America - Helped lead Ardrey Kell to the SW4A High School State Championship - Earned 4A All-State honors as a senior - Honor Roll - National Honor Society Member.",
+            "freshman": "Appeared in 25 games as a reliever, posting a 2.10 ERA - Registered a 1-0 mark on the season - Threw 25.2 innings, allowing six earned runs - Struck out 17, while walking just nine - Gave up just one hit and no runs in his collegiate debut against Southern California (3/2) - Threw a scoreless and hitless 2.2 frames while striking out three to earn his first win against Princeton (3/20) - Struck out a career-high three batters three times on the season - Gave up zero hits in nine appearances - Ended his debut season on a seven-game streak of not giving up an earned run from May 2 through June 3. Summer 2012: Made six appearances and five starts for the Thomasville Hi-Toms of the Coastal Plain League - Posted a 2.25 ERA and registered a 3-1 mark - Threw 32 innings, allowing eight earned runs - Struck out 31 - Played in the all star game - Named Baseball America's fourth-best prospect in the Coastal Plain League.",
+            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/JD/JDNCOZUSQMJCVOY.20130826190726.jpg"
         }
     }
 ]
