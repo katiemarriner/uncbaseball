@@ -3,33 +3,33 @@
 {% extends "base.html" %}
 {% block content %}
 <div class="col-md-12">
-    <h1>UNC Baseball Roster 2014</h1>
+    <h1><a href="{% url 'roster_home' %}">UNC Baseball Roster 2014</a></h1>
 </div>
 
 <div class="col-md-8">
 
-<table class="player-table">
-    <thead class="player-head">
-        <tr class="player-head-row">
+<table class="table">
+    <thead>
+        <tr>
             <th>#</th>
             <th>Name</th>
             <th>Position</th>
-            <th>Year</th>
-            <th>Hometown</th>
-            <th>Previous School</th>
+            <th class="hidden-xs">Year</th>
+            <th class="hidden-xs">Hometown</th>
+            <th class="hidden-xs">Previous School</th>
         </tr>
     </thead>
     
-    <tbody class="player-body">
+    <tbody>
         {% for player in players %}
         {# Each "player" is a player model object. #}
-        <tr class="player-data">
+        <tr>
             <td>{{ player.jersey }}</td>
             <td><a href="{{ player.id }}">{{ player.name }}</a></td>
-            <td>{{ player.position }}</td>
-            <td>Freshman</td>
-            <td>{{ player.city }}</td>
-            <td>{{ player.previousschool }}</td>
+            <td><div class="position-tip" data-toggle="tooltip" data-placement="right" title="{{ player.position }}">{{ player.position }}</div></td>
+            <td class="hidden-xs">{{ player.year }}</td>
+            <td class="hidden-xs">{{ player.city }}</td>
+            <td class="hidden-xs">{{ player.previousschool }}</td>
         </tr>
         {% endfor %}
     </tbody>

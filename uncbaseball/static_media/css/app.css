@@ -1,14 +1,23 @@
+body {
+    font-family: 'Lato', Helevetica Neue, sans-serif;
+}
+
 h1 {
     font-weight: 900;
-    background-color: #f4f4f4;
     padding: 10px;
     color: #56a0d3;
-    font-size: 48px;
+    background-color: #f4f4f4;
+    font-size: 54px;
+}
+
+h1.main-title {
+   
 }
 
 h2 {
-    background-color: #f4f4f4;
     padding: 10px;
+    font-weight: 900;
+    font-size: 72px;
 }
 
 .player-table {
@@ -19,9 +28,8 @@ h2 {
     
 }
 
-.player-head-row {
-    background-color: #56a0d3;
-    color: #fff;
+.table thead {
+    background-color: rgba(86, 160, 211, 0.2);
 }
 
 .player-head-row th {
@@ -53,8 +61,10 @@ h2 {
 
 .player-facts li {
     list-style: none;
-    border-bottom: 1px #000 solid;
-    padding: 10px;
+    border-bottom: 1px #56a0d3 solid;
+    border-right: 1px #56a0d3 solid;
+    border-left: 1px #56a0d3 solid;
+    padding: 5px;
 }
 
 a {
@@ -66,11 +76,34 @@ a:hover {
 }
 
 .mug {
-    max-width: 300px;
+    max-width: 100%;
     border: #56a0d3 1px solid;
     padding: 10px;
 }
 
+.player-facts {
+    max-width: 100%;
+}
+
 #leftside {
     
+}
+
+/*PANEL*/
+.panel-heading {
+    border-radius: 0;
+}
+
+.panel-group .panel {
+    border-radius: 0;
+}
+
+h4.panel-title {
+    color: #56a0d3;
+}
+
+/*TOOLTIP*/
+.position-tip {
+    cursor: hand;
+    cursor: pointer;
 }

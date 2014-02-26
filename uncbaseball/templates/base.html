@@ -5,8 +5,12 @@
     <title>UNC Baseball Team</title>
     <link href="{{ STATIC_URL }}css/bootstrap.css" rel="stylesheet">
     <link href="{{ STATIC_URL }}css/app.css" rel="stylesheet">
-    <script src="{{ STATIC_URL }}js/jquery.js"></script>
-    <script language="text/javascript" src="{{ STATIC_URL }}js/bootstrap.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,400,900,400italic' rel='stylesheet' type='text/css'>
+
+</style>
 </head>
 
 <body>
@@ -14,6 +18,9 @@
     {% block content %}{% endblock %}
 </div>
 
+<script type='text/javascript'>
+     $('.position-tip').tooltip();
+  </script>
 </body>
     
 </html>

@@ -4,10 +4,11 @@
 
 {% block content %}
 
+<div id="player">
 <h2>{{ player.jersey }} <a href="{% url 'roster_player_list' %}">{{ player.name }}</a></h2>
 
 <div class="row">
-<div class="col-md-4" id="leftside">
+<div class="col-md-3" id="leftside">
     <img src="{{ player.imgurl }}" class="mug">
     
     <ul class="player-facts">
@@ -15,38 +16,77 @@
         <li>Height: {{ player.height }}</li>
         <li>Hand: {{ player.hand }}</li>
         <li>Position: {{ player.position }}</li>
+        <li>High School: {{ player.previousschool }}</li>
     </ul>
 </div><!--end #leftside-->
 
-<div class="col-md-8">
-    <h4>{{ player.previousschool }}</h4>
-    <p>{{ player.highschool }}</p>
-        
-    <h4>Freshman Year</h4>
-    <p>{{ player.freshman }}</p>
-        
-    <h4>Sophomore Year</h4>
-    <p>{{ player.sophomore }}</p>
-        
-    <h4>Junior Year</h4>
-    <p>{{ player.junior }}</p>
-    
-    
-    <ul class="nav nav-tabs">
-        <li class="active"><a href="#about" data-toggle="tab">About</a></li>
-        <li><a href="#freshman" data-toggle="tab">Freshman</a></li>
-        <li><a href="#sophomore" data-toggle="tab">Sophomore</a></li>
-        <li><a href="#junior" data-toggle="tab">Junior</a></li>
-      </ul>
-      
-      <!-- Tab panes -->
-      <div class="tab-content">
-        <div class="tab-pane active" id="about">About</div>
-        <div class="tab-pane" id="freshman">Freshman</div>
-        <div class="tab-pane" id="sophomore">Sophomore</div>
-        <div class="tab-pane" id="junior">Junior</div>
+<div class="col-md-9">
+    <!--BEGIN ACCORDIAN-->    
+    <div class="row">
+    <div class="panel-group col-md-12" col-sm-12 col-xs-12 id="accordion">
+      <div class="panel panel-default">
+	<div class="panel-heading">
+	  <h4 class="panel-title">
+	    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+	      Junior Year
+	    </a>
+	  </h4>
+	</div>
+	<div id="collapseOne" class="panel-collapse collapse in">
+	  <div class="panel-body">
+	    {{ player.junior }}
+	  </div>
+	</div>
       </div>
+      <div class="panel panel-default">
+	<div class="panel-heading">
+	  <h4 class="panel-title">
+	    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+	      Sophomore Year
+	    </a>
+	  </h4>
+	</div>
+	<div id="collapseTwo" class="panel-collapse collapse">
+	  <div class="panel-body">
+	    {{ player.sophomore }}
+	  </div>
+	</div>
+      </div>
+      <div class="panel panel-default">
+	<div class="panel-heading">
+	  <h4 class="panel-title">
+	    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+	      Freshman Year
+	    </a>
+	  </h4>
+	</div>
+	<div id="collapseThree" class="panel-collapse collapse">
+	  <div class="panel-body">
+            {{ player.freshman }}
+	  </div>
+	</div>
+      </div>
+      <div class="panel panel-default">
+	<div class="panel-heading">
+	  <h4 class="panel-title">
+	    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+	      {{ player.previousschool }}
+	    </a>
+	  </h4>
+	</div>
+	<div id="collapseFour" class="panel-collapse collapse">
+	  <div class="panel-body">
+            {{ player.highschool }}
+	  </div>
+	</div>
+      </div>
+    </div>
+    </div><!--endrow-->
+    <!--END ACCORDIAN-->
+
+
 </div>
 </div><!--end-row-->
+</div>
 
 {% endblock %}
