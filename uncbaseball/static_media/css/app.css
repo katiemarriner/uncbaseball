@@ -116,6 +116,8 @@ h4.panel-title {
 
 .player-table {
     position: relative;
+    max-height: 600px;
+    overflow: scroll;
 }
 
 .info-box {
