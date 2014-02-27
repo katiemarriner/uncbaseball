@@ -17,8 +17,8 @@ class Player(models.Model):
     sophomore = models.TextField(null=True)
     junior = models.TextField(null=True)
     senior = models.TextField(null=True)
-    #twitterId = models.IntegerField(null=True, max_length=50)
-    #twitter = models.CharField(null=True, max_length=50)
+    # twitterId = models.IntegerField(null=True, max_length=50)
+    # twitter = models.CharField(null=True, max_length=50)
     #major = models.CharField(max_length=100)
     class Meta(object):
         verbose_name_plural = "Players"
