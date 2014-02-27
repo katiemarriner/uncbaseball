@@ -7,7 +7,7 @@ h1 {
     padding: 10px;
     color: #56a0d3;
     background-color: #f4f4f4;
-    font-size: 54px;
+    font-size: 60px;
 }
 
 h1.main-title {
@@ -18,10 +18,10 @@ h2 {
     padding: 10px;
     font-weight: 900;
     font-size: 72px;
-}
-
-.player-table {
-
+    background-color: #f4f4f4;
+    background-attachment: fixed;
+    background-position: 0;
+    
 }
 
 .player-head {
@@ -32,8 +32,8 @@ h2 {
     background-color: rgba(86, 160, 211, 0.2);
 }
 
-.player-head-row th {
-
+.table tbody tr:hover {
+    background-color: #f4f4f4;
 }
 
 .player-head-row th, .player-data td {
@@ -106,4 +106,30 @@ h4.panel-title {
 .position-tip {
     cursor: hand;
     cursor: pointer;
+}
+
+.show-this {
+    visibility: hidden;
+    position: relative;
+    z-index: 1000;
+}
+
+.player-table {
+    position: relative;
+}
+
+.info-box {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 1px #56a0d3 solid;
+}
+
+.info-box ul {
+    list-style: none;
+    font-size: 12px;
+    padding: 10px;
+    margin: 0;
 }

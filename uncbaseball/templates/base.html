@@ -19,7 +19,14 @@
 </div>
 
 <script type='text/javascript'>
-     $('.position-tip').tooltip();
+    //$('.position-tip').tooltip();
+    $('.position-tip').on("mouseover", function(){
+        console.log("show");
+        $(".info-box").removeClass("show-this");
+    });
+    $('.position-tip').on("mouseout", function(){
+        $(".info-box").addClass("show-this");
+    });
   </script>
 </body>
     

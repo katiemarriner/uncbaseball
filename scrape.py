@@ -1,38 +1,41 @@
 #!/usr/bin/env python
 
-import urllib2
+from django.core.management.base import BaseCommand, CommandError
 from bs4 import BeautifulSoup
+from roster.models import Player
 
-url = 'http://www.goheels.com/SportSelect.dbml?DB_OEM_ID=3350&SPID=12960&SPSID=668154&SITE=UNC&DB_OEM_ID=3350' # write the url here
-output =""
-usock = urllib2.urlopen(url)
-html_data = usock.read()
-usock.close()
-print "Socket Opened, html_data stored and scoket closed"
-#print html_data
+import urllib2
+import re
 
-soup = BeautifulSoup(html_data)
-
-#print "Make it pretty"
-#print soup
-
-tempData = soup.find_all("odd")
-for names in tempData:
-    output += names.string
-
-output += " has worked for "
-
-print(soup.prettify())
-
-
-tempData = soup.find_all('h4')
-for companies in tempData:
+class Command(BaseCommand):
+    args = '<url>'
+    help = 'Parses and imports players from Goheels.com'
     
-    output += companies.string + ','
+    def handle(self, *args, **options):
+        try:
+            print ("trying to scrape")
 
-print output
-
-
-
-
-
+            response = urllib2.urlopen('http://www.goheels.com/SportSelect.dbml?DB_OEM_ID=3350&SPID=12960&SPSID=668154&SITE=UNC&DB_OEM_ID=3350')
+            html = response.read()
+            
+            soup = BeautifulSoup(html)
+            
+            tabledata = soup.find("table", {"id": "roster-table"}) # find the table, the next thing to find is a table with an idea of
+            player_names = []
+            player_links = []
+            player_position = []
+            
+            for link in tabledata.find_all('a'):
+                player_links.append(link.get('href'))
+                player_names.append(link.get('title'))
+            for position in tabledata.find_all('td', {"class" : "position"}):
+                player_position.append(position.text.strip())
+                
+            print player_names
+            print player_links
+            print player_position
+        
+        except Player.DoesNotExist:
+            raise CommandError('did not work')
+        
+        self.stdout.write("end of scrape.py")

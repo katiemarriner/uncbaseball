@@ -32,7 +32,8 @@
             "city": "Pikeville, N.C.",
             "year": "Freshman",
             "previousschool": "C.B. Aycock",
-            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/100/PH/PHXVJMLKIDPNWUM.20130826190843.jpg"
+            "twitter": "The_MnM",
+            "twitterId": 438019969322729472
         }
     },
     {
@@ -48,7 +49,8 @@
             "city": "Douglasville, G.A.",
             "year": "Freshman",
             "previousschool": "Chapel Hill High School",
-            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/100/TI/TIJTOZPPNSWDEIH.20130826191024.jpg"
+            "twitter": "The_MnM",
+            "twitterId": 438019969322729472
         }
     },
     {
@@ -64,7 +66,8 @@
             "city": "Chapel Hill, N.C.",
             "year": "Freshman",
             "previousschool": "Jordan",
-            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/100/PA/PAXXHVRGECZWTGK.20130826190754.jpg"
+            "twitter": "The_MnM",
+            "twitterId": 438019969322729472
         }
     },
     {
@@ -176,7 +179,9 @@
             "previousschool": "Forestview",
             "highschool": "Ranked among the top 500 in the country and No. 35 in the state of North Carolina by Perfect Game - Ranked the No. 3 player in the state by Impact Baseball - High school teammate of Reilly Hovis - Four-year center fielder - Coached by Brian Horne at Forestview High School in Gastonia, N.C. - Member of the Beta Club, National Honor Society and Technical Honor Society - Also played as a forward on Forestview's soccer team in 2008 and 2009.",
             "freshman": "Appeared in 12 games off the bench during his first season - Scored four runs and hit .300 as a pinch hitter and outfielder - Recorded his first career hit and scored his first career run in his first collegiate game against St. John's (2/27) - Went 1 for 2 with a run scored against Clemson (5/24) - Summer 2013: Played in 28 games for the Gastonia Grizzlies of the Coastal Plain League - Hit .235 while racking up 15 RBIs, 16 runs scored, five doubles, one triple and a home run.",
-            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/VI/VIEOLYZFBRHKRVN.20130826190435.jpg"
+            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/VI/VIEOLYZFBRHKRVN.20130826190435.jpg",
+            "twitter": "The_MnM",
+            "twitterId": 438019969322729472
         }
     },
     {
@@ -195,6 +200,438 @@
             "highschool": "Coached by Hal Bagwell at Ardrey Kell - Drafted in the 35th round (1079th) of the 2011 MLB Draft by the New York Yankees - Ranked No. 11 in the state of North Carolina and No. 135 in the nation by Perfect Game - Impact Baseball ranks him the No. 17 player in North Carolina - Listed as the No. 44 right-hander in the country by Perfect Game - Named an Under Armour Preseason All-America - Helped lead Ardrey Kell to the SW4A High School State Championship - Earned 4A All-State honors as a senior - Honor Roll - National Honor Society Member.",
             "freshman": "Appeared in 25 games as a reliever, posting a 2.10 ERA - Registered a 1-0 mark on the season - Threw 25.2 innings, allowing six earned runs - Struck out 17, while walking just nine - Gave up just one hit and no runs in his collegiate debut against Southern California (3/2) - Threw a scoreless and hitless 2.2 frames while striking out three to earn his first win against Princeton (3/20) - Struck out a career-high three batters three times on the season - Gave up zero hits in nine appearances - Ended his debut season on a seven-game streak of not giving up an earned run from May 2 through June 3. Summer 2012: Made six appearances and five starts for the Thomasville Hi-Toms of the Coastal Plain League - Posted a 2.25 ERA and registered a 3-1 mark - Threw 32 innings, allowing eight earned runs - Struck out 31 - Played in the all star game - Named Baseball America's fourth-best prospect in the Coastal Plain League.",
             "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/JD/JDNCOZUSQMJCVOY.20130826190726.jpg",
+            "twtter": "Chris_McCue",
+            "twitterId": 438020832636325888
+        }
+    },
+    {
+        "pk": 13,
+        "model": "roster.Player",
+        "fields": {
+            "name": "Chris McCue",
+            "jersey": 17,
+            "weight": 155,
+            "height": "6-0",
+            "position": "RHP",
+            "hand": "R/R",
+            "city": "Charlotte, N.C.",
+            "year": "Junior",
+            "previousschool": "Ardrey Kell",
+            "highschool": "Coached by Hal Bagwell at Ardrey Kell - Drafted in the 35th round (1079th) of the 2011 MLB Draft by the New York Yankees - Ranked No. 11 in the state of North Carolina and No. 135 in the nation by Perfect Game - Impact Baseball ranks him the No. 17 player in North Carolina - Listed as the No. 44 right-hander in the country by Perfect Game - Named an Under Armour Preseason All-America - Helped lead Ardrey Kell to the SW4A High School State Championship - Earned 4A All-State honors as a senior - Honor Roll - National Honor Society Member.",
+            "freshman": "Appeared in 25 games as a reliever, posting a 2.10 ERA - Registered a 1-0 mark on the season - Threw 25.2 innings, allowing six earned runs - Struck out 17, while walking just nine - Gave up just one hit and no runs in his collegiate debut against Southern California (3/2) - Threw a scoreless and hitless 2.2 frames while striking out three to earn his first win against Princeton (3/20) - Struck out a career-high three batters three times on the season - Gave up zero hits in nine appearances - Ended his debut season on a seven-game streak of not giving up an earned run from May 2 through June 3. Summer 2012: Made six appearances and five starts for the Thomasville Hi-Toms of the Coastal Plain League - Posted a 2.25 ERA and registered a 3-1 mark - Threw 32 innings, allowing eight earned runs - Struck out 31 - Played in the all star game - Named Baseball America's fourth-best prospect in the Coastal Plain League.",
+            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/JD/JDNCOZUSQMJCVOY.20130826190726.jpg",
+            "twtter": "Chris_McCue",
+            "twitterId": 438020832636325888
+        }
+    },
+    {
+        "pk": 14,
+        "model": "roster.Player",
+        "fields": {
+            "name": "Chris McCue",
+            "jersey": 17,
+            "weight": 155,
+            "height": "6-0",
+            "position": "RHP",
+            "hand": "R/R",
+            "city": "Charlotte, N.C.",
+            "year": "Junior",
+            "previousschool": "Ardrey Kell",
+            "highschool": "Coached by Hal Bagwell at Ardrey Kell - Drafted in the 35th round (1079th) of the 2011 MLB Draft by the New York Yankees - Ranked No. 11 in the state of North Carolina and No. 135 in the nation by Perfect Game - Impact Baseball ranks him the No. 17 player in North Carolina - Listed as the No. 44 right-hander in the country by Perfect Game - Named an Under Armour Preseason All-America - Helped lead Ardrey Kell to the SW4A High School State Championship - Earned 4A All-State honors as a senior - Honor Roll - National Honor Society Member.",
+            "freshman": "Appeared in 25 games as a reliever, posting a 2.10 ERA - Registered a 1-0 mark on the season - Threw 25.2 innings, allowing six earned runs - Struck out 17, while walking just nine - Gave up just one hit and no runs in his collegiate debut against Southern California (3/2) - Threw a scoreless and hitless 2.2 frames while striking out three to earn his first win against Princeton (3/20) - Struck out a career-high three batters three times on the season - Gave up zero hits in nine appearances - Ended his debut season on a seven-game streak of not giving up an earned run from May 2 through June 3. Summer 2012: Made six appearances and five starts for the Thomasville Hi-Toms of the Coastal Plain League - Posted a 2.25 ERA and registered a 3-1 mark - Threw 32 innings, allowing eight earned runs - Struck out 31 - Played in the all star game - Named Baseball America's fourth-best prospect in the Coastal Plain League.",
+            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/JD/JDNCOZUSQMJCVOY.20130826190726.jpg",
+            "twtter": "Chris_McCue",
+            "twitterId": 438020832636325888
+        }
+    },
+    {
+        "pk": 15,
+        "model": "roster.Player",
+        "fields": {
+            "name": "Chris McCue",
+            "jersey": 17,
+            "weight": 155,
+            "height": "6-0",
+            "position": "RHP",
+            "hand": "R/R",
+            "city": "Charlotte, N.C.",
+            "year": "Junior",
+            "previousschool": "Ardrey Kell",
+            "highschool": "Coached by Hal Bagwell at Ardrey Kell - Drafted in the 35th round (1079th) of the 2011 MLB Draft by the New York Yankees - Ranked No. 11 in the state of North Carolina and No. 135 in the nation by Perfect Game - Impact Baseball ranks him the No. 17 player in North Carolina - Listed as the No. 44 right-hander in the country by Perfect Game - Named an Under Armour Preseason All-America - Helped lead Ardrey Kell to the SW4A High School State Championship - Earned 4A All-State honors as a senior - Honor Roll - National Honor Society Member.",
+            "freshman": "Appeared in 25 games as a reliever, posting a 2.10 ERA - Registered a 1-0 mark on the season - Threw 25.2 innings, allowing six earned runs - Struck out 17, while walking just nine - Gave up just one hit and no runs in his collegiate debut against Southern California (3/2) - Threw a scoreless and hitless 2.2 frames while striking out three to earn his first win against Princeton (3/20) - Struck out a career-high three batters three times on the season - Gave up zero hits in nine appearances - Ended his debut season on a seven-game streak of not giving up an earned run from May 2 through June 3. Summer 2012: Made six appearances and five starts for the Thomasville Hi-Toms of the Coastal Plain League - Posted a 2.25 ERA and registered a 3-1 mark - Threw 32 innings, allowing eight earned runs - Struck out 31 - Played in the all star game - Named Baseball America's fourth-best prospect in the Coastal Plain League.",
+            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/JD/JDNCOZUSQMJCVOY.20130826190726.jpg",
+            "twtter": "Chris_McCue",
+            "twitterId": 438020832636325888
+        }
+    },
+    {
+        "pk": 16,
+        "model": "roster.Player",
+        "fields": {
+            "name": "Chris McCue",
+            "jersey": 17,
+            "weight": 155,
+            "height": "6-0",
+            "position": "RHP",
+            "hand": "R/R",
+            "city": "Charlotte, N.C.",
+            "year": "Junior",
+            "previousschool": "Ardrey Kell",
+            "highschool": "Coached by Hal Bagwell at Ardrey Kell - Drafted in the 35th round (1079th) of the 2011 MLB Draft by the New York Yankees - Ranked No. 11 in the state of North Carolina and No. 135 in the nation by Perfect Game - Impact Baseball ranks him the No. 17 player in North Carolina - Listed as the No. 44 right-hander in the country by Perfect Game - Named an Under Armour Preseason All-America - Helped lead Ardrey Kell to the SW4A High School State Championship - Earned 4A All-State honors as a senior - Honor Roll - National Honor Society Member.",
+            "freshman": "Appeared in 25 games as a reliever, posting a 2.10 ERA - Registered a 1-0 mark on the season - Threw 25.2 innings, allowing six earned runs - Struck out 17, while walking just nine - Gave up just one hit and no runs in his collegiate debut against Southern California (3/2) - Threw a scoreless and hitless 2.2 frames while striking out three to earn his first win against Princeton (3/20) - Struck out a career-high three batters three times on the season - Gave up zero hits in nine appearances - Ended his debut season on a seven-game streak of not giving up an earned run from May 2 through June 3. Summer 2012: Made six appearances and five starts for the Thomasville Hi-Toms of the Coastal Plain League - Posted a 2.25 ERA and registered a 3-1 mark - Threw 32 innings, allowing eight earned runs - Struck out 31 - Played in the all star game - Named Baseball America's fourth-best prospect in the Coastal Plain League.",
+            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/JD/JDNCOZUSQMJCVOY.20130826190726.jpg",
+            "twtter": "Chris_McCue",
+            "twitterId": 438020832636325888
+        }
+    },
+    {
+        "pk": 17,
+        "model": "roster.Player",
+        "fields": {
+            "name": "Chris McCue",
+            "jersey": 17,
+            "weight": 155,
+            "height": "6-0",
+            "position": "RHP",
+            "hand": "R/R",
+            "city": "Charlotte, N.C.",
+            "year": "Junior",
+            "previousschool": "Ardrey Kell",
+            "highschool": "Coached by Hal Bagwell at Ardrey Kell - Drafted in the 35th round (1079th) of the 2011 MLB Draft by the New York Yankees - Ranked No. 11 in the state of North Carolina and No. 135 in the nation by Perfect Game - Impact Baseball ranks him the No. 17 player in North Carolina - Listed as the No. 44 right-hander in the country by Perfect Game - Named an Under Armour Preseason All-America - Helped lead Ardrey Kell to the SW4A High School State Championship - Earned 4A All-State honors as a senior - Honor Roll - National Honor Society Member.",
+            "freshman": "Appeared in 25 games as a reliever, posting a 2.10 ERA - Registered a 1-0 mark on the season - Threw 25.2 innings, allowing six earned runs - Struck out 17, while walking just nine - Gave up just one hit and no runs in his collegiate debut against Southern California (3/2) - Threw a scoreless and hitless 2.2 frames while striking out three to earn his first win against Princeton (3/20) - Struck out a career-high three batters three times on the season - Gave up zero hits in nine appearances - Ended his debut season on a seven-game streak of not giving up an earned run from May 2 through June 3. Summer 2012: Made six appearances and five starts for the Thomasville Hi-Toms of the Coastal Plain League - Posted a 2.25 ERA and registered a 3-1 mark - Threw 32 innings, allowing eight earned runs - Struck out 31 - Played in the all star game - Named Baseball America's fourth-best prospect in the Coastal Plain League.",
+            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/JD/JDNCOZUSQMJCVOY.20130826190726.jpg",
+            "twtter": "Chris_McCue",
+            "twitterId": 438020832636325888
+        }
+    },
+    {
+        "pk": 18,
+        "model": "roster.Player",
+        "fields": {
+            "name": "Chris McCue",
+            "jersey": 17,
+            "weight": 155,
+            "height": "6-0",
+            "position": "RHP",
+            "hand": "R/R",
+            "city": "Charlotte, N.C.",
+            "year": "Junior",
+            "previousschool": "Ardrey Kell",
+            "highschool": "Coached by Hal Bagwell at Ardrey Kell - Drafted in the 35th round (1079th) of the 2011 MLB Draft by the New York Yankees - Ranked No. 11 in the state of North Carolina and No. 135 in the nation by Perfect Game - Impact Baseball ranks him the No. 17 player in North Carolina - Listed as the No. 44 right-hander in the country by Perfect Game - Named an Under Armour Preseason All-America - Helped lead Ardrey Kell to the SW4A High School State Championship - Earned 4A All-State honors as a senior - Honor Roll - National Honor Society Member.",
+            "freshman": "Appeared in 25 games as a reliever, posting a 2.10 ERA - Registered a 1-0 mark on the season - Threw 25.2 innings, allowing six earned runs - Struck out 17, while walking just nine - Gave up just one hit and no runs in his collegiate debut against Southern California (3/2) - Threw a scoreless and hitless 2.2 frames while striking out three to earn his first win against Princeton (3/20) - Struck out a career-high three batters three times on the season - Gave up zero hits in nine appearances - Ended his debut season on a seven-game streak of not giving up an earned run from May 2 through June 3. Summer 2012: Made six appearances and five starts for the Thomasville Hi-Toms of the Coastal Plain League - Posted a 2.25 ERA and registered a 3-1 mark - Threw 32 innings, allowing eight earned runs - Struck out 31 - Played in the all star game - Named Baseball America's fourth-best prospect in the Coastal Plain League.",
+            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/JD/JDNCOZUSQMJCVOY.20130826190726.jpg",
+            "twtter": "Chris_McCue",
+            "twitterId": 438020832636325888
+        }
+    },
+    {
+        "pk": 19,
+        "model": "roster.Player",
+        "fields": {
+            "name": "Chris McCue",
+            "jersey": 17,
+            "weight": 155,
+            "height": "6-0",
+            "position": "RHP",
+            "hand": "R/R",
+            "city": "Charlotte, N.C.",
+            "year": "Junior",
+            "previousschool": "Ardrey Kell",
+            "highschool": "Coached by Hal Bagwell at Ardrey Kell - Drafted in the 35th round (1079th) of the 2011 MLB Draft by the New York Yankees - Ranked No. 11 in the state of North Carolina and No. 135 in the nation by Perfect Game - Impact Baseball ranks him the No. 17 player in North Carolina - Listed as the No. 44 right-hander in the country by Perfect Game - Named an Under Armour Preseason All-America - Helped lead Ardrey Kell to the SW4A High School State Championship - Earned 4A All-State honors as a senior - Honor Roll - National Honor Society Member.",
+            "freshman": "Appeared in 25 games as a reliever, posting a 2.10 ERA - Registered a 1-0 mark on the season - Threw 25.2 innings, allowing six earned runs - Struck out 17, while walking just nine - Gave up just one hit and no runs in his collegiate debut against Southern California (3/2) - Threw a scoreless and hitless 2.2 frames while striking out three to earn his first win against Princeton (3/20) - Struck out a career-high three batters three times on the season - Gave up zero hits in nine appearances - Ended his debut season on a seven-game streak of not giving up an earned run from May 2 through June 3. Summer 2012: Made six appearances and five starts for the Thomasville Hi-Toms of the Coastal Plain League - Posted a 2.25 ERA and registered a 3-1 mark - Threw 32 innings, allowing eight earned runs - Struck out 31 - Played in the all star game - Named Baseball America's fourth-best prospect in the Coastal Plain League.",
+            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/JD/JDNCOZUSQMJCVOY.20130826190726.jpg",
+            "twtter": "Chris_McCue",
+            "twitterId": 438020832636325888
+        }
+    },
+    {
+        "pk": 20,
+        "model": "roster.Player",
+        "fields": {
+            "name": "Chris McCue",
+            "jersey": 17,
+            "weight": 155,
+            "height": "6-0",
+            "position": "RHP",
+            "hand": "R/R",
+            "city": "Charlotte, N.C.",
+            "year": "Junior",
+            "previousschool": "Ardrey Kell",
+            "highschool": "Coached by Hal Bagwell at Ardrey Kell - Drafted in the 35th round (1079th) of the 2011 MLB Draft by the New York Yankees - Ranked No. 11 in the state of North Carolina and No. 135 in the nation by Perfect Game - Impact Baseball ranks him the No. 17 player in North Carolina - Listed as the No. 44 right-hander in the country by Perfect Game - Named an Under Armour Preseason All-America - Helped lead Ardrey Kell to the SW4A High School State Championship - Earned 4A All-State honors as a senior - Honor Roll - National Honor Society Member.",
+            "freshman": "Appeared in 25 games as a reliever, posting a 2.10 ERA - Registered a 1-0 mark on the season - Threw 25.2 innings, allowing six earned runs - Struck out 17, while walking just nine - Gave up just one hit and no runs in his collegiate debut against Southern California (3/2) - Threw a scoreless and hitless 2.2 frames while striking out three to earn his first win against Princeton (3/20) - Struck out a career-high three batters three times on the season - Gave up zero hits in nine appearances - Ended his debut season on a seven-game streak of not giving up an earned run from May 2 through June 3. Summer 2012: Made six appearances and five starts for the Thomasville Hi-Toms of the Coastal Plain League - Posted a 2.25 ERA and registered a 3-1 mark - Threw 32 innings, allowing eight earned runs - Struck out 31 - Played in the all star game - Named Baseball America's fourth-best prospect in the Coastal Plain League.",
+            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/JD/JDNCOZUSQMJCVOY.20130826190726.jpg",
+            "twtter": "Chris_McCue",
+            "twitterId": 438020832636325888
+        }
+    },
+    {
+        "pk": 21,
+        "model": "roster.Player",
+        "fields": {
+            "name": "Chris McCue",
+            "jersey": 17,
+            "weight": 155,
+            "height": "6-0",
+            "position": "RHP",
+            "hand": "R/R",
+            "city": "Charlotte, N.C.",
+            "year": "Junior",
+            "previousschool": "Ardrey Kell",
+            "highschool": "Coached by Hal Bagwell at Ardrey Kell - Drafted in the 35th round (1079th) of the 2011 MLB Draft by the New York Yankees - Ranked No. 11 in the state of North Carolina and No. 135 in the nation by Perfect Game - Impact Baseball ranks him the No. 17 player in North Carolina - Listed as the No. 44 right-hander in the country by Perfect Game - Named an Under Armour Preseason All-America - Helped lead Ardrey Kell to the SW4A High School State Championship - Earned 4A All-State honors as a senior - Honor Roll - National Honor Society Member.",
+            "freshman": "Appeared in 25 games as a reliever, posting a 2.10 ERA - Registered a 1-0 mark on the season - Threw 25.2 innings, allowing six earned runs - Struck out 17, while walking just nine - Gave up just one hit and no runs in his collegiate debut against Southern California (3/2) - Threw a scoreless and hitless 2.2 frames while striking out three to earn his first win against Princeton (3/20) - Struck out a career-high three batters three times on the season - Gave up zero hits in nine appearances - Ended his debut season on a seven-game streak of not giving up an earned run from May 2 through June 3. Summer 2012: Made six appearances and five starts for the Thomasville Hi-Toms of the Coastal Plain League - Posted a 2.25 ERA and registered a 3-1 mark - Threw 32 innings, allowing eight earned runs - Struck out 31 - Played in the all star game - Named Baseball America's fourth-best prospect in the Coastal Plain League.",
+            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/JD/JDNCOZUSQMJCVOY.20130826190726.jpg",
+            "twtter": "Chris_McCue",
+            "twitterId": 438020832636325888
+        }
+    },
+    {
+        "pk": 22,
+        "model": "roster.Player",
+        "fields": {
+            "name": "Chris McCue",
+            "jersey": 17,
+            "weight": 155,
+            "height": "6-0",
+            "position": "RHP",
+            "hand": "R/R",
+            "city": "Charlotte, N.C.",
+            "year": "Junior",
+            "previousschool": "Ardrey Kell",
+            "highschool": "Coached by Hal Bagwell at Ardrey Kell - Drafted in the 35th round (1079th) of the 2011 MLB Draft by the New York Yankees - Ranked No. 11 in the state of North Carolina and No. 135 in the nation by Perfect Game - Impact Baseball ranks him the No. 17 player in North Carolina - Listed as the No. 44 right-hander in the country by Perfect Game - Named an Under Armour Preseason All-America - Helped lead Ardrey Kell to the SW4A High School State Championship - Earned 4A All-State honors as a senior - Honor Roll - National Honor Society Member.",
+            "freshman": "Appeared in 25 games as a reliever, posting a 2.10 ERA - Registered a 1-0 mark on the season - Threw 25.2 innings, allowing six earned runs - Struck out 17, while walking just nine - Gave up just one hit and no runs in his collegiate debut against Southern California (3/2) - Threw a scoreless and hitless 2.2 frames while striking out three to earn his first win against Princeton (3/20) - Struck out a career-high three batters three times on the season - Gave up zero hits in nine appearances - Ended his debut season on a seven-game streak of not giving up an earned run from May 2 through June 3. Summer 2012: Made six appearances and five starts for the Thomasville Hi-Toms of the Coastal Plain League - Posted a 2.25 ERA and registered a 3-1 mark - Threw 32 innings, allowing eight earned runs - Struck out 31 - Played in the all star game - Named Baseball America's fourth-best prospect in the Coastal Plain League.",
+            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/JD/JDNCOZUSQMJCVOY.20130826190726.jpg",
+            "twtter": "Chris_McCue",
+            "twitterId": 438020832636325888
+        }
+    },
+    {
+        "pk": 23,
+        "model": "roster.Player",
+        "fields": {
+            "name": "Chris McCue",
+            "jersey": 17,
+            "weight": 155,
+            "height": "6-0",
+            "position": "RHP",
+            "hand": "R/R",
+            "city": "Charlotte, N.C.",
+            "year": "Junior",
+            "previousschool": "Ardrey Kell",
+            "highschool": "Coached by Hal Bagwell at Ardrey Kell - Drafted in the 35th round (1079th) of the 2011 MLB Draft by the New York Yankees - Ranked No. 11 in the state of North Carolina and No. 135 in the nation by Perfect Game - Impact Baseball ranks him the No. 17 player in North Carolina - Listed as the No. 44 right-hander in the country by Perfect Game - Named an Under Armour Preseason All-America - Helped lead Ardrey Kell to the SW4A High School State Championship - Earned 4A All-State honors as a senior - Honor Roll - National Honor Society Member.",
+            "freshman": "Appeared in 25 games as a reliever, posting a 2.10 ERA - Registered a 1-0 mark on the season - Threw 25.2 innings, allowing six earned runs - Struck out 17, while walking just nine - Gave up just one hit and no runs in his collegiate debut against Southern California (3/2) - Threw a scoreless and hitless 2.2 frames while striking out three to earn his first win against Princeton (3/20) - Struck out a career-high three batters three times on the season - Gave up zero hits in nine appearances - Ended his debut season on a seven-game streak of not giving up an earned run from May 2 through June 3. Summer 2012: Made six appearances and five starts for the Thomasville Hi-Toms of the Coastal Plain League - Posted a 2.25 ERA and registered a 3-1 mark - Threw 32 innings, allowing eight earned runs - Struck out 31 - Played in the all star game - Named Baseball America's fourth-best prospect in the Coastal Plain League.",
+            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/JD/JDNCOZUSQMJCVOY.20130826190726.jpg",
+            "twtter": "Chris_McCue",
+            "twitterId": 438020832636325888
+        }
+    },
+    {
+        "pk": 24,
+        "model": "roster.Player",
+        "fields": {
+            "name": "Chris McCue",
+            "jersey": 17,
+            "weight": 155,
+            "height": "6-0",
+            "position": "RHP",
+            "hand": "R/R",
+            "city": "Charlotte, N.C.",
+            "year": "Junior",
+            "previousschool": "Ardrey Kell",
+            "highschool": "Coached by Hal Bagwell at Ardrey Kell - Drafted in the 35th round (1079th) of the 2011 MLB Draft by the New York Yankees - Ranked No. 11 in the state of North Carolina and No. 135 in the nation by Perfect Game - Impact Baseball ranks him the No. 17 player in North Carolina - Listed as the No. 44 right-hander in the country by Perfect Game - Named an Under Armour Preseason All-America - Helped lead Ardrey Kell to the SW4A High School State Championship - Earned 4A All-State honors as a senior - Honor Roll - National Honor Society Member.",
+            "freshman": "Appeared in 25 games as a reliever, posting a 2.10 ERA - Registered a 1-0 mark on the season - Threw 25.2 innings, allowing six earned runs - Struck out 17, while walking just nine - Gave up just one hit and no runs in his collegiate debut against Southern California (3/2) - Threw a scoreless and hitless 2.2 frames while striking out three to earn his first win against Princeton (3/20) - Struck out a career-high three batters three times on the season - Gave up zero hits in nine appearances - Ended his debut season on a seven-game streak of not giving up an earned run from May 2 through June 3. Summer 2012: Made six appearances and five starts for the Thomasville Hi-Toms of the Coastal Plain League - Posted a 2.25 ERA and registered a 3-1 mark - Threw 32 innings, allowing eight earned runs - Struck out 31 - Played in the all star game - Named Baseball America's fourth-best prospect in the Coastal Plain League.",
+            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/JD/JDNCOZUSQMJCVOY.20130826190726.jpg",
+            "twtter": "Chris_McCue",
+            "twitterId": 438020832636325888
+        }
+    },
+    {
+        "pk": 25,
+        "model": "roster.Player",
+        "fields": {
+            "name": "Chris McCue",
+            "jersey": 17,
+            "weight": 155,
+            "height": "6-0",
+            "position": "RHP",
+            "hand": "R/R",
+            "city": "Charlotte, N.C.",
+            "year": "Junior",
+            "previousschool": "Ardrey Kell",
+            "highschool": "Coached by Hal Bagwell at Ardrey Kell - Drafted in the 35th round (1079th) of the 2011 MLB Draft by the New York Yankees - Ranked No. 11 in the state of North Carolina and No. 135 in the nation by Perfect Game - Impact Baseball ranks him the No. 17 player in North Carolina - Listed as the No. 44 right-hander in the country by Perfect Game - Named an Under Armour Preseason All-America - Helped lead Ardrey Kell to the SW4A High School State Championship - Earned 4A All-State honors as a senior - Honor Roll - National Honor Society Member.",
+            "freshman": "Appeared in 25 games as a reliever, posting a 2.10 ERA - Registered a 1-0 mark on the season - Threw 25.2 innings, allowing six earned runs - Struck out 17, while walking just nine - Gave up just one hit and no runs in his collegiate debut against Southern California (3/2) - Threw a scoreless and hitless 2.2 frames while striking out three to earn his first win against Princeton (3/20) - Struck out a career-high three batters three times on the season - Gave up zero hits in nine appearances - Ended his debut season on a seven-game streak of not giving up an earned run from May 2 through June 3. Summer 2012: Made six appearances and five starts for the Thomasville Hi-Toms of the Coastal Plain League - Posted a 2.25 ERA and registered a 3-1 mark - Threw 32 innings, allowing eight earned runs - Struck out 31 - Played in the all star game - Named Baseball America's fourth-best prospect in the Coastal Plain League.",
+            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/JD/JDNCOZUSQMJCVOY.20130826190726.jpg",
+            "twtter": "Chris_McCue",
+            "twitterId": 438020832636325888
+        }
+    },
+    {
+        "pk": 26,
+        "model": "roster.Player",
+        "fields": {
+            "name": "Benton Moss",
+            "jersey": 39,
+            "weight": 174,
+            "height": "6-2",
+            "position": "RHP",
+            "hand": "R/R",
+            "city": "Enfield, N.C.",
+            "year": "Junior",
+            "previousschool": "Rocky Mount",
+            "highschool": "Coached by Kent Cox at Rocky Mount - Ranked No. 2 in North Carolina by Impact Baseball and No. 3 by Perfect Game - Rated No. 68 in the country by Perfect Game and No. 85 by Baseball America - Earned all-area and all-state honors - Named an Under Armour All-America - 'A' Honor throughout high school career - Ranked in the top five in his class academically - Morehead Cain Scholar.",
+            "freshman": "Louisville Slugger Freshman All-America - National Collegiate Baseball Writers Association Freshman All-America - Appeared in 17 games with 16 starts, posting a 1.94 ERA, the lowest of all starters - Registered a 7-2 mark - Threw 79 innings, allowing 17 earned runs - His 1.94 ERA was the third-lowest in the ACC - Struck out 83, the second most on the team - Opponents hit .218 against him on the season - Earned his first collegiate win with an 8.1-inning gem against Elon (3/7) - Moss struck out eight and allowed just three hits in that win, which was followed by another victory in his next scoreless appearance against UNC Greensboro (3/13) - Struck out a career-high 10 against Maryland (3/18) - Earned three ACC wins against Virginia (4/15), Georgia Tech (4/21) and Virginia Tech (5/18) - Struck out nine batters in three ACC games in a row from April 1-15.",
+            "sophomore": "Appeared in 19 games and started 16 as a sophomore - Posted a 3.77 ERA in 88.1 innings, third-most on the team - Recorded the second-most strikeouts on the team, striking out 92 batters - Walked just 34 opposing batters while compiling a 8-1 record, good for third on the team in wins - Won his first seven decisions of the year, including ACC victories against Wake Forest (3/9), Miami (3/16), Boston College (3/23) and Duke (4/20)- Tossed six or more innings in six outings - Tallied a season-high nine strikeouts twice and recorded at least seven strikeouts in an outing six times - Tossed a season-high eight innings without conceding a run and giving up just two hits while striking out five against Georgia Tech (5/11)- Went seven innings with nine strikeouts while allowing no runs and just two hits against Miami (3/16) - Earned ACC Pitcher of the Week honors for his performance against the Hurricanes - Made to the CoSIDA Academic All-District team.",
+            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/PY/PYDHIIDBBZXVRSO.20130826190743.jpg",
+            "twtter": "Chris_McCue",
+            "twitterId": 438020832636325888
+        }
+    },
+    {
+        "pk": 27,
+        "model": "roster.Player",
+        "fields": {
+            "name": "Matt Orth",
+            "jersey": 41,
+            "weight": 190,
+            "height": "6-1",
+            "position": "LHP",
+            "hand": "L/L",
+            "city": "High Point, N.C.",
+            "year": "Freshman",
+            "previousschool": "Southwest Guilford",
+            "twtter": "Chris_McCue",
+            "twitterId": 438020832636325888
+        }
+    },
+    {
+        "pk": 28,
+        "model": "roster.Player",
+        "fields": {
+            "name": "A.J. Bugucki",
+            "jersey": 42,
+            "weight": 191,
+            "height": "6-3",
+            "position": "RHP",
+            "hand": "R/R",
+            "city": "Gilbertsville, Pa.",
+            "year": "Freshman",
+            "previousschool": "Boyertown Area",
+            "twtter": "Chris_McCue",
+            "twitterId": 438020832636325888
+        }
+    },
+    {
+        "pk": 29,
+        "model": "roster.Player",
+        "fields": {
+            "name": "Korey Dunbar",
+            "jersey": 43,
+            "weight": 215,
+            "height": "6-0",
+            "position": "C",
+            "hand": "R/R",
+            "city": "Charleston, W.Va.",
+            "year": "Sophomore",
+            "previousschool": "Nitro",
+            "highschool": "Drafted in the 39th round (1196) of the 2012 MLB Draft by the Los Angeles Dodgers - Ranked among the top 500 in the country by Perfect Game - Tabbed the top player in the state of West Virginia by Perfect Game - Earned first team all-state honors as a junior - Coached by Steve Pritchard at Nitro High School in Nitro, W.Va. - Played catcher, pitcher and third base at Nitro - Received Promise and Brandon Sneed Scholarships - High Honors graduate - Member of Mu Alpha Theta.",
+            "freshman": "Appeared in 25 games as a reliever, posting a 2.10 ERA - Registered a Appeared in 39 games, starting 14 at catcher - Hit .159 with three RBIs, five runs scored and two doubles - Did not commit an error in 130 total chances - Recorded his first career hit - a double - against Stony Brook (2/24) - Scored his first collegiate run and tallied his first RBI against California (3/2).Summer 2013: Appeared in 20 games for the Wilson Tobs of the Coastal Plain League - Hit .313 with 16 RBIs, 10 runs scored, six doubles and three home runs.",
+            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/CQ/CQNDREMXBFJUZZZ.20130826190454.jpg",
+            "twtter": "Chris_McCue",
+            "twitterId": 438020832636325888
+        }
+    },
+    {
+        "pk": 30,
+        "model": "roster.Player",
+        "fields": {
+            "name": "Trevor Kelley",
+            "jersey": 44,
+            "weight": 210,
+            "height": "6-2",
+            "position": "RHP",
+            "hand": "R/R",
+            "city": "Wilmington, N.C.",
+            "year": "Junior",
+            "previousschool": "Ashley",
+            "highschool": "Coached by Brian Stewart at Ashley High School - Ranked the No. 24 player in the state of North Carolina by Perfect Game and the No. 491 player in the nation - Participated in the 2009 and 2010 State Games representing Region 2 - Named all-conference as a junior.",
+            "freshman": "Appeared in four games, posting a 16.2 ERA - Pitched 1.2 innings out of the bullpen in April and May - Gave up just one hit and no runs in his collegiate debut against Coastal Carolina (3/28) - Struck out three batters on the season, with two of those coming in his final appearance against Georgia Tech (4/20). Summer 2012: Appeared in 16 games for the Baltimore Redbirds in the Cal Ripken Collegiate Baseball League - Posted a 1.80 ERA with a 2-1 record - Threw 35 innings, allowing nine earned runs - Tallied five saves over the summer - Struck out 38, while walking just 10 in 35 innings of work.",
+            "sophomore": "Tied for most appearances on the team with 32 - Compiled a 3.63 ERA in 44.2 innings pitched - Allowed just 18 earned runs and walked just 19 batters while recording 36 strikeouts - Tallied two saves and a 2-1 record - Kept opposing batters to a .209 batting average - Struck out a career-high four batters in 3.2 innings against N.C. State (4/27) - Tossed a career-most four innings with one hit, no runs and two strikeouts against Virginia Tech (5/26). Summer 2013: Appeared in 13 games for the Orleans Firebirds of the Cape Cod League - Posted a 1.52 ERA in 17.2 innings - Allowed just three earned runs and 12 hits - Tallied 17 strikeouts and one save",
+            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/UD/UDKZYPAGCTWQPAU.20130826190645.jpg",
+            "twtter": "Chris_McCue",
+            "twitterId": 438020832636325888
+        }
+    },
+    {
+        "pk": 31,
+        "model": "roster.Player",
+        "fields": {
+            "name": "Zach Rice",
+            "jersey": 45,
+            "weight": 189,
+            "height": "6-2",
+            "position": "LHP",
+            "hand": "L/L",
+            "city": "Suffolk, Va.",
+            "year": "Freshman",
+            "previousschool": "Nansemond River",
+            "twtter": "Chris_McCue",
+            "twitterId": 438020832636325888
+        }
+    },
+    {
+        "pk": 32,
+        "model": "roster.Player",
+        "fields": {
+            "name": "Luis Paula",
+            "jersey": 46,
+            "weight": 185,
+            "height": "6-3",
+            "position": "RHP",
+            "hand": "R/R",
+            "city": "McLeansville, N.C.",
+            "year": "Junior",
+            "previousschool": "Northeast Guilford",
+            "highschool": "Coached by David Lawing at Northeast Guilford - Ranked No. 21 in the state by Impact Baseball - Rated a top 1000 prospect by Perfect Game - Named to the 3A All-State Team as a junior - Helped lead Northeast Guilford to the Mid-Piedmont 3A Championship - Ranked No. 7 academically in his class.",
+            "freshman": "Appeared in 13 games, making two starts and posting a 5.95 ERA - Pitched 19.2 innings while allowing 13 earned runs - Struck out 21 batters on the season - Struck out five in his first collegiate start against Davidson (3/6) - Notched four strikeouts while giving up just one earned run against UNC Greensboro (4/24) - Pounded the zone for seven strikeouts in 4.1 innings against St. John's in postseason play (6/3). Summer 2012: Appeared in nine games, making seven starts for the Forest City Owls of the Coastal Plain League - Registered a 4-3 mark with a 3.15 ERA - Struck out 28 in 40 innings of work, while allowing just 14 earned runs - Named the 14th-best prospect in the league by Perfect Game.",
+            "sophomore": "Appeared in nine games during the season, compiling an 8.59 ERA - Recorded six strikeouts and one save in 7.1 innings pitched - Allowed just five hits and kept opponents to a .192 batting average - Tossed two scoreless and hitless innings and tallied two strikeouts against Princeton (3/19) - Picked up his first career save vs. Rice in Houston with a scoreless inning in a 2-1 win (3/1). Summer 2013: Made 15 appearances with one start for the Orleans Firebirds of the Cape Cod League - Posted a 4.93 ERA and a 2-1 record, allowing 15 earned runs and struck out 15 in 27.1 innings",
+            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/VO/VOBRUDFNJFENIPY.20130826190850.jpg",
+            "twtter": "Chris_McCue",
+            "twitterId": 438020832636325888
+        }
+    },
+    {
+        "pk": 33,
+        "model": "roster.Player",
+        "fields": {
+            "name": "Chris Oakley",
+            "jersey": 47,
+            "weight": 226,
+            "height": "6-6",
+            "position": "RHP",
+            "hand": "R/R",
+            "city": "Egg Harbor, N.J.",
+            "year": "Freshman",
+            "previousschool": "St. Augstine Prep",
+            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/JD/JDNCOZUSQMJCVOY.20130826190726.jpg",
+            "twtter": "Chris_McCue",
+            "twitterId": 438020832636325888
+        }
+    },
+    {
+        "pk": 34,
+        "model": "roster.Player",
+        "fields": {
+            "name": "Taylore Cherry",
+            "jersey": 48,
+            "weight": 270,
+            "height": "6-8",
+            "position": "RHP",
+            "hand": "R/R",
+            "city": "Dayton, Ohio",
+            "year": "Sophomore",
+            "previousschool": "Butler",
+            "highschool": "Ranked the No. 21 player in the nation by Perfect Game and No. 2 in the state of Ohio - Baseball America tabbed Cherry No. 38 in the 2012 class - Played in the Perfect Game All-American Game - Was named the Gatorade Player of the Year of Ohio as a junior - Coached by Trent Dues at Vandalia-Butler High School in Vandalia, Ohio. - Also played basketball from freshman to junior year - Named to the principal's list freshman and senior years.",
+            "freshman": "Made eight appearances with one start during the season - Compiled an 8.10 ERA and a 1-0 record - Allowed nine earned runs and 16 hits in 10 innings pitched - Made his first career start in the ACC Championship final, throwing five innings and allowing just five hits and one earned run to beat Virginia Tech - Had a scoreless outing against Elon (4/17), retiring a pair of batters and striking out one - Tossed a scoreless and hitless inning and struck out one batter in his first collegiate appearance against Seton Hall (2/17). Summer 2013: Started eight games for the Madison Mallards of the Northwood League - Went 1-1 with a 3.94 ERA in 29.2 innings to help the Mallards to the league title.",
+            "imgurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/PY/PYOQVTLCXOBJGHF.20130826190427.jpg",
             "twtter": "Chris_McCue",
             "twitterId": 438020832636325888
         }
