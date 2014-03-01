@@ -9,6 +9,7 @@
     <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="{{ STATIC_URL }}js/bootstrap.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Lato:100,400,900,400italic' rel='stylesheet' type='text/css'>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 
 </style>
 </head>
@@ -20,13 +21,21 @@
 
 <script type='text/javascript'>
     //$('.position-tip').tooltip();
-    $('.position-tip').on("mouseover", function(){
-        console.log("show");
-        $(".info-box").removeClass("show-this");
+    $('.position-tip').on("mouseenter mouseleave", function(){
+        $(".info-box").toggleClass("show-this");
     });
-    $('.position-tip').on("mouseout", function(){
-        $(".info-box").addClass("show-this");
-    });
+    $('.mug[src=""]').hide();
+    $('.mug:not([src=""])').show();
+   
+   function parse($text) { 
+            // Damn pesky carriage returns...
+        $text = str_replace("\r\n", "\n", $text);
+        $text = str_replace("\r", "\n", $text);
+    
+        // JSON requires new line characters be escaped
+        $text = str_replace("\n", "\\n", $text);
+        return $text;
+    }
   </script>
 </body>
     
