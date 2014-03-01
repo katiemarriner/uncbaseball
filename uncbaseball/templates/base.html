@@ -26,16 +26,6 @@
     });
     $('.mug[src=""]').hide();
     $('.mug:not([src=""])').show();
-   
-   function parse($text) { 
-            // Damn pesky carriage returns...
-        $text = str_replace("\r\n", "\n", $text);
-        $text = str_replace("\r", "\n", $text);
-    
-        // JSON requires new line characters be escaped
-        $text = str_replace("\n", "\\n", $text);
-        return $text;
-    }
   </script>
 </body>
     

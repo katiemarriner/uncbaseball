@@ -130,7 +130,7 @@ h4.panel-title {
     max-height: 500px;
     overflow-y: scroll;
     overflow-x: hidden;
-    border: 1px #56a0d3 solid;
+    border: #56a0d3 thin;
 }
 
 .info-box {
