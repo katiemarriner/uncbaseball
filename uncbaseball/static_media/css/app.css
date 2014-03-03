@@ -1,13 +1,32 @@
+.box {
+    height: 100px;
+    weight: 100px;
+    border: 1px solid #000;
+}
+
+.float-left {
+    float: left;
+}
+
 body {
     font-family: 'Lato', Helevetica Neue, sans-serif;
+}
+
+iframe {
+    border: none;
+    min-width: 100%;
+    min-height: 350px;
+    padding: 0;
+    margin: 0;
 }
 
 h1 {
     font-weight: 900;
     padding: 10px;
     color: #56a0d3;
-    background-color: #f4f4f4;
-    font-size: 60px;
+    margin: 0;
+    font-size: 72px;
+    text-align: right;
 }
 
 h1.main-title {
@@ -18,10 +37,34 @@ h2 {
     padding: 10px;
     font-weight: 900;
     font-size: 60px;
-    background-color: #f4f4f4;
     background-attachment: fixed;
     background-position: 0;
+    color: #2a6496;
+    border-bottom: 1px solid #56a0d3;
+    margin: 0;
     
+}
+
+h3 {
+    font-size: 48px;
+    font-weight: 900;
+    padding: 10px;
+    color: #56a0d3;
+    background-color: #f4f4f4;
+}
+
+p.label {
+    font-weight: bold;
+    color: #000;
+    font-size: 12px;
+}
+
+.title-left{
+    border-left: 1px solid #56a0d3;
+}
+
+.row-margin {
+    margin-top: 20px;
 }
 
 .player-head {
@@ -30,6 +73,11 @@ h2 {
 
 .table thead {
     background-color: rgba(86, 160, 211, 0.2);
+    color: #2a6496;
+}
+
+.table tbody {
+    background-color: #fff;
 }
 
 .table tbody tr:hover {
@@ -104,7 +152,21 @@ a:hover {
     border-radius: 0;
 }
 
+h4.panel-title-sub {
+    color: #56a0d3;
+    font-size: 14px;
+    margin: 0;
+}
+
 h4.panel-title {
+    color: #56a0d3;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 24px;
     color: #56a0d3;
 }
 
@@ -120,6 +182,10 @@ h4.panel-title {
     z-index: 1000;
 }
 
+ul.positions {
+    float: right;
+}
+
 .player-table-static {
     position: relative;
     background-color: #f4f4f4;
@@ -127,7 +193,7 @@ h4.panel-title {
 
 .player-table-scroll {
     position: relative;
-    max-height: 500px;
+    max-height: 350px;
     overflow-y: scroll;
     overflow-x: hidden;
     border: #56a0d3 thin;
@@ -148,3 +214,5 @@ h4.panel-title {
     padding: 10px;
     margin: 0;
 }
+
+#map { height: 180px; }

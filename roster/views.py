@@ -17,9 +17,9 @@ def playerList(request):
     return render(request, 'roster/player_list.html', {'players': player_list})
 
 def coach(request, pk):
-    staff = get_object_or_404(Staff, id=pk)
+    coach = get_object_or_404(Coach, id=pk)
     return render(request, "roster/coach.html", {'coach': coach})
 
 def coachList(request):
-    staff_list = Coach.object.all()
-    return render(request, 'roster/coach_list.html', {'coaches': coaches})
+    coach_list = Coach.objects.all()
+    return render(request, 'roster/coach_list.html', {'coaches': coach_list})

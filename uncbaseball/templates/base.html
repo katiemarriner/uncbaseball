@@ -10,6 +10,7 @@
     <script src="{{ STATIC_URL }}js/bootstrap.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Lato:100,400,900,400italic' rel='stylesheet' type='text/css'>
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <base target="_parent" />
 
 </style>
 </head>
@@ -20,12 +21,23 @@
 </div>
 
 <script type='text/javascript'>
-    //$('.position-tip').tooltip();
+    var width = $(window).width();
+    var height = $(window).height();
+    
+    $(document).ready(function divSize() {
+        $('.container').height(height);
+    });
+    
     $('.position-tip').on("mouseenter mouseleave", function(){
         $(".info-box").toggleClass("show-this");
     });
+    
     $('.mug[src=""]').hide();
+    
     $('.mug:not([src=""])').show();
+    
+    $(".panel-body:empty").parent().hide(".panel");
+    
   </script>
 </body>
     

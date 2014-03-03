@@ -5,12 +5,11 @@
 {% block content %}
 
 <div id="player">
-<h2>{{ player.jersey }} <a href="{% url 'roster_player_list' %}">{{ player.name }}</a></h2>
 
-<div class="row">
+<div class="row row-margin">
+    
 <div class="col-md-3" id="leftside">
     <img src="{{ player.imgurl }}" class="mug">
-    
     <ul class="player-facts">
         <li>Weight: {{ player.weight }}</li>
         <li>Height: {{ player.height }}</li>
@@ -21,12 +20,17 @@
 </div><!--end #leftside-->
 
 <div class="col-md-9">
+    
+    <h2>{{ player.jersey }} <a href="{% url 'roster_player_list' %}">{{ player.name }}</a></h2>
+    
+    <h5>Yearly Highlights</h5>
+    
     <!--BEGIN ACCORDIAN-->    
     <div class="row">
     <div class="panel-group col-md-12" col-sm-12 col-xs-12 id="accordion">
       <div class="panel panel-default">
 	<div class="panel-heading">
-	  <h4 class="panel-title">
+	  <h4 class="panel-title-sub">
 	    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
 	      Junior Year
 	    </a>
@@ -40,7 +44,7 @@
       </div>
       <div class="panel panel-default">
 	<div class="panel-heading">
-	  <h4 class="panel-title">
+	  <h4 class="panel-title-sub">
 	    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
 	      Sophomore Year
 	    </a>
@@ -54,7 +58,7 @@
       </div>
       <div class="panel panel-default">
 	<div class="panel-heading">
-	  <h4 class="panel-title">
+	  <h4 class="panel-title-sub">
 	    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
 	      Freshman Year
 	    </a>
@@ -68,9 +72,9 @@
       </div>
       <div class="panel panel-default">
 	<div class="panel-heading">
-	  <h4 class="panel-title">
+	  <h4 class="panel-title-sub">
 	    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-	      {{ player.previousschool }}
+	      High School
 	    </a>
 	  </h4>
 	</div>
@@ -80,12 +84,28 @@
 	  </div>
 	</div>
       </div>
+      <div class="panel panel-default">
+	<div class="panel-heading">
+	  <h4 class="panel-title-sub">
+	    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+	      Tweets
+	    </a>
+	  </h4>
+	</div>
+	<div id="collapseFive" class="panel-collapse collapse">
+	  <div class="panel-body">
+            <a class="twitter-timeline" href="https://twitter.com/{{ player.twitter }}" data-widget-id="{{ player.twitterId }}">Tweets by {{ player.twitter }}</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div>
+	  </div>
+	</div>
+      </div>
     </div>
     </div><!--endrow-->
     <!--END ACCORDIAN-->
 
+</div><!--end--col-->
 
-</div>
 </div><!--end-row-->
 </div>
 

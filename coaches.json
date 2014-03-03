@@ -1,0 +1,128 @@
+[
+    {
+        "pk": 1,
+        "model": "roster.Coach",
+        "fields": {
+            "name": "Mike Fox",
+            "position": "Head Coach",
+            "bio": " "
+        }
+    },
+    {
+        "pk": 2,
+        "model": "roster.Coach",
+        "fields": {
+            "name": "Scott Forbes",
+            "position": "Associate Head Coach/Pitching Coach",
+            "bio": " "
+        }
+    },
+    {
+        "pk": 3,
+        "model": "roster.Coach",
+        "fields": {
+            "name": "Scott Jackson",
+            "position": "Assistant Coach/Recruiting Coordinator",
+            "bio": " "
+        }
+    },
+    {
+        "pk": 4,
+        "model": "roster.Coach",
+        "fields": {
+            "name": "Bryant Gaines",
+            "position": "Assistant Coach",
+            "bio": " "
+        }
+    },
+    {
+        "pk": 5,
+        "model": "roster.Coach",
+        "fields": {
+            "name": "Dave Arendas",
+            "position": "Director of Baseball Operations",
+            "bio": " "
+        }
+    },
+    {
+        "pk": 6,
+        "model": "roster.Coach",
+        "fields": {
+            "name": "Zach Fitzpatrick",
+            "position": "Bullpen Catcher",
+            "bio": " "
+        }
+    },
+    {
+        "pk": 7,
+        "model": "roster.Coach",
+        "fields": {
+            "name": "Mark Fleury",
+            "position": "Undergraduate Assistant Coach",
+            "bio": " "
+        }
+    },
+    {
+        "pk": 8,
+        "model": "roster.Coach",
+        "fields": {
+            "name": "Greg Gatz",
+            "position": "Director of Strength and Conditioning/Olympic Sports",
+            "bio": " "
+        }
+    },
+    {
+        "pk": 9,
+        "model": "roster.Coach",
+        "fields": {
+            "name": "Taryn Gilrein",
+            "position": "Graduate Athletic Trainer",
+            "bio": " "
+        }
+    },
+    {
+        "pk": 10,
+        "model": "roster.Coach",
+        "fields": {
+            "name": "Josh Horton",
+            "position": "Administrative Assistant Coach",
+            "bio": " "
+        }
+    },
+    {
+        "pk": 11,
+        "model": "roster.Coach",
+        "fields": {
+            "name": "Josh Horton",
+            "position": "Undergraduate Assistant Coach",
+            "bio": " "
+        }
+    },
+    {
+        "pk": 12,
+        "model": "roster.Coach",
+        "fields": {
+            "name": "Will Norrell",
+            "position": "Bullpen Catcher",
+            "bio": " "
+        }
+    },
+    {
+        "pk": 13,
+        "model": "roster.Coach",
+        "fields": {
+            "name": "Tyler Puryear",
+            "position": "Clubhouse/Equiptment Manager",
+            "bio": " "
+        }
+    },
+    {
+        "pk": 14,
+        "model": "roster.Coach",
+        "fields": {
+            "name": "Terri Jo Rucinski",
+            "position": "Head Athletic Trainer",
+            "bio": " "
+        }
+    }
+]

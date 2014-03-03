@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Position</th>
+        </tr>
+    </thead>
+                
+    <tbody>
+    {% for coach in coaches %}
+    {# Each "coach" is a coach model object. #}
+    <tr>
+        <td><a href="{{ coach.id }}">{{ coach.name }}</a></td>
+        <td>{{ coach.position }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

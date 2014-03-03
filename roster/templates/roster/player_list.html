@@ -2,59 +2,96 @@
 
 {% extends "base.html" %}
 {% block content %}
-<div class="col-md-12">
-    <h1><a href="{% url 'roster_home' %}">UNC Baseball Roster 2014</a></h1>
+
+<div class="row row-margin">
+<div class="col-md-4">
+    <h1><a href="{% url 'roster_home' %}">UNC Baseball 2014</a></h1>
+    
+<a class="twitter-timeline" href="https://twitter.com/DiamondHeels" data-widget-id="437763363121008641">Tweets by @DiamondHeels</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+
+<img src="{{ player.imgurl }}">
+
 </div>
 
 <div class="col-md-8">
-    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-<div class="player-table-static">
-<div class="player-table-scroll">
-<table class="table">
-    <thead>
-        <tr>
-            <th>#</th>
-            <th>Name</th>
-            <th>Position</th>
-            <th class="hidden-xs">Year</th>
-            <th class="hidden-xs">Hometown</th>
-            <th class="hidden-xs">Previous School</th>
-        </tr>
-    </thead>
-    
-    <tbody>
-        {% for player in players %}
-        {# Each "player" is a player model object. #}
-        <tr>
-            <td>{{ player.jersey }}</td>
-            <td><a href="{{ player.id }}">{{ player.name }}</a></td>
-            <td><div class="position-tip">{{ player.position }}</div></td>
-            <td class="hidden-xs">{{ player.year }}</td>
-            <td class="hidden-xs">{{ player.city }}</td>
-            <td class="hidden-xs">{{ player.previousschool }}</td>
-        </tr>
-        {% endfor %}
-    </tbody>
-</table>
-</div>
-<div class="show-this info-box hidden-sm hidden-xs">
-    <ul>
-        <li>OF: Outfield</li>
-        <li>INF: Infield</li>
-        <li>LHP: Left-Handed Pitcher</li>
-        <li>RHP: Right-Handed Pitcher</li>
-        <li>C: Catcher</li>
-        <li>1B: First Base</li>
-        <li>2B: Second Base</li>
-        <li>3B: Third Base</li>
-        <li>SS: Short Stop</li>
-    </ul>
-</div>
-</div>
-</div>
+<div class="panel panel-default">
+	<div class="panel-heading">
+	  <h4 class="panel-title">
+	    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+	    Roster
+	    </a>
+	  </h4>
+	</div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+	<div class="panel-body">
+            <div class="player-table-static">
+            <div class="player-table-scroll">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th class="hidden-xs">Year</th>
+                        <th class="hidden-xs">Hometown</th>
+                        <th class="hidden-xs">Previous School</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    {% for player in players %}
+                    {# Each "player" is a player model object. #}
+                    <tr>
+                        <td>{{ player.jersey }}</td>
+                        <td><a href="{{ player.id }}">{{ player.name }}</a></td>
+                        <td><div class="position-tip">{{ player.position }}</div></td>
+                        <td class="hidden-xs">{{ player.year }}</td>
+                        <td class="hidden-xs">{{ player.city }}</td>
+                        <td class="hidden-xs">{{ player.previousschool }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            </div>
+            <div class="show-this info-box hidden-sm hidden-xs">
+                <ul class="positions">
+                    <li><p class="label">OF</p>: Outfield</li>
+                    <li><p class="label">INF</p>: Infield</li>
+                    <li><p class="label">LHP</p>: Left-Handed Pitcher</li>
+                    <li><p class="label">RHP</p>: Right-Handed Pitcher</li>
+                    <li><p class="label">C</p>: Catcher</li>
+                    <li><p class="label">1B</p>: First Base</li>
+                    <li><p class="label">2B</p>: Second Base</li>
+                    <li><p class="label">3B</p>: Third Base</li>
+                    <li><p class="label">SS</p>: Short Stop</li>
+                </ul>
+            </div><!--end infobox-->
+            </div>
+        </div>
+</div><!--accordian-->
+</div><!--accordian-->
+<div class="panel panel-default">
+	<div class="panel-heading">
+	  <h4 class="panel-title">
+	    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+	    Coaches
+	    </a>
+	  </h4>
+	</div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+	  <div class="panel-body">
+            <iframe src="../coach"></iframe>
+	  </div>
+	</div>
+    </div>
 
-<div class="col-md-4">
-<a class="twitter-timeline" href="https://twitter.com/DiamondHeels" data-widget-id="437763363121008641">Tweets by @DiamondHeels</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div><!--accordian-->
+
+</div><!--end title and roster row-->
+
+<div class="col-md-4 float-left">
 </div>
 {% endblock %}

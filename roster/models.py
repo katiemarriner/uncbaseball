@@ -17,7 +17,7 @@ class Player(models.Model):
     sophomore = models.TextField(blank=True)
     junior = models.TextField(blank=True)
     senior = models.TextField(blank=True)
-    twitterId = models.IntegerField(null=True, max_length=50)
+    twitterId = models.CharField(null=True, max_length=50)
     twitter = models.CharField(null=True, max_length=50)
     #major = models.CharField(max_length=100)
     class Meta(object):
@@ -30,9 +30,8 @@ class Player(models.Model):
 class Coach(models.Model):
     name = models.CharField(max_length=50)
     position = models.CharField(max_length=50)
-    school = models.CharField(max_length=50)
-    experience = models.IntegerField(max_length=2)
+    bio = models.TextField(blank=True)
     
-    def save(self, *args, **kwargs): # when saved, make sure the name is uppercase
-        self.name = self.name.upper()
-        super(Course, self).save(*args, **kwargs)
+    class Meta(object):
+        verbose_name_plural = "Coaches"
+        ordering = ('name', 'position')
