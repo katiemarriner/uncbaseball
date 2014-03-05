@@ -10,7 +10,7 @@ class Player(models.Model):
     city = models.CharField(max_length=50)
     year = models.CharField(max_length=20)
     imgurl = models.URLField(blank=True)
-    position = models.CharField(max_length=5)
+    position = models.CharField(max_length=6)
     hand = models.CharField(max_length=3)
     highschool = models.TextField()
     freshman = models.TextField(blank=True)
