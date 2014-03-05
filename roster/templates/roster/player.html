@@ -6,28 +6,31 @@
 
 <div id="player">
 
-<div class="row row-margin">
+<div class="row-margin">
+<h2 class="hidden-md hidden-lg player-name-small">{{ player.jersey }} <a href="{% url 'roster_player_list' %}">{{ player.name }}</a></h2>
     
-<div class="col-md-3" id="leftside">
+<div class="col-md-3" id="leftside-player">
     <img src="{{ player.imgurl }}" class="mug">
     <ul class="player-facts">
-        <li>Weight: {{ player.weight }}</li>
-        <li>Height: {{ player.height }}</li>
-        <li>Hand: {{ player.hand }}</li>
-        <li>Position: {{ player.position }}</li>
-        <li>High School: {{ player.previousschool }}</li>
+        <li><p class="label">Weight</p> {{ player.weight }}</li>
+        <li><p class="label">Height</p> {{ player.height }}</li>
+        <li><p class="label">Hand</p> {{ player.hand }}</li>
+        <li><p class="label">Position</p> {{ player.position }}</li>
+        <li><p class="label">High School</p> {{ player.previousschool }}</li>
     </ul>
+    <a class="twitter-timeline" href="https://twitter.com/{{ player.twitter }}" data-widget-id="{{ player.twitterId }}">Tweets by {{ player.twitter }}</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </div><!--end #leftside-->
 
-<div class="col-md-9">
+<div class="col-md-9 col-sm-6 col-xs-12">
     
-    <h2>{{ player.jersey }} <a href="{% url 'roster_player_list' %}">{{ player.name }}</a></h2>
+    <h2 class="hidden-sm hidden-xs">{{ player.jersey }} <a href="{% url 'roster_player_list' %}">{{ player.name }}</a></h2>
     
-    <h5>Yearly Highlights</h5>
+    <h5>History</h5>
     
     <!--BEGIN ACCORDIAN-->    
     <div class="row">
-    <div class="panel-group col-md-12" col-sm-12 col-xs-12 id="accordion">
+    <div class="panel-group col-md-12" id="accordion">
       <div class="panel panel-default">
 	<div class="panel-heading">
 	  <h4 class="panel-title-sub">
@@ -36,9 +39,9 @@
 	    </a>
 	  </h4>
 	</div>
-	<div id="collapseOne" class="panel-collapse collapse in">
+	<div id="collapseOne" class="panel-collapse collapse">
 	  <div class="panel-body">
-	    {{ player.junior }}
+	    <pre>{{ player.junior }}</pre>
 	  </div>
 	</div>
       </div>
@@ -52,7 +55,7 @@
 	</div>
 	<div id="collapseTwo" class="panel-collapse collapse">
 	  <div class="panel-body">
-	    {{ player.sophomore }}
+	    <pre>{{ player.sophomore }}</pre>
 	  </div>
 	</div>
       </div>
@@ -66,7 +69,7 @@
 	</div>
 	<div id="collapseThree" class="panel-collapse collapse">
 	  <div class="panel-body">
-            {{ player.freshman }}
+            <pre>{{ player.freshman }}</pre>
 	  </div>
 	</div>
       </div>
@@ -80,25 +83,11 @@
 	</div>
 	<div id="collapseFour" class="panel-collapse collapse">
 	  <div class="panel-body">
-            {{ player.highschool }}
+            <pre>{{ player.highschool }}</pre>
 	  </div>
 	</div>
       </div>
-      <div class="panel panel-default">
-	<div class="panel-heading">
-	  <h4 class="panel-title-sub">
-	    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-	      Tweets
-	    </a>
-	  </h4>
-	</div>
-	<div id="collapseFive" class="panel-collapse collapse">
-	  <div class="panel-body">
-            <a class="twitter-timeline" href="https://twitter.com/{{ player.twitter }}" data-widget-id="{{ player.twitterId }}">Tweets by {{ player.twitter }}</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    </div>
-	  </div>
-	</div>
+
       </div>
     </div>
     </div><!--endrow-->

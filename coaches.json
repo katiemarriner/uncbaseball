@@ -84,7 +84,7 @@
         "pk": 10,
         "model": "roster.Coach",
         "fields": {
-            "name": "Josh Horton",
+            "name": "Joan Holt",
             "position": "Administrative Assistant Coach",
             "bio": " "
         }

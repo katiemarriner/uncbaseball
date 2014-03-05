@@ -5,11 +5,21 @@
 
 {% block content %}
 
-<h3 class="main-title"><a href="{% url 'roster_player_list' %}">Baseball</a></h3>
-<h3 class="main-title"><a href="#">Basketball</a></h3>
-<h3 class="main-title"><a href="#">Field Hockey</a></h3>
-<h3 class="main-title"><a href="#">Football</a></h3>
-<h3 class="main-title"><a href="#">Gymnastics</a></h3>
-<h3 class="main-title"><a href="#">Lacrosse</a></h3>
+<div class="col-md-6">
+    <h3 class="main-title"><a href="{% url 'roster_player_list' %}">Baseball</a></h3>
+    <h3 class="main-title"><a href="#">Basketball</a></h3>
+    <h3 class="main-title"><a href="#">Cross Country</a></h3>
+    <h3 class="main-title"><a href="#">Fencing</a></h3>
+    <h3 class="main-title"><a href="#">Field Hockey</a></h3>
+    <h3 class="main-title"><a href="#">Football</a></h3>
+</div>
+<div class="col-md-6">
+    <h3 class="main-title"><a href="#">Golf</a></h3>
+    <h3 class="main-title"><a href="#">Lacrosse</a></h3>
+    <h3 class="main-title"><a href="#">Soccer</a></h3>
+    <h3 class="main-title"><a href="#">Swimming & Diving</a></h3>
+    <h3 class="main-title"><a href="#">Tennis</a></h3>
+    <h3 class="main-title"><a href="#">Track & Field</a></h3>
+</div>
 
 {% endblock %}

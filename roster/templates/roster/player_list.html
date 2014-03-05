@@ -4,19 +4,29 @@
 {% block content %}
 
 <div class="row row-margin">
-<div class="col-md-4">
-    <h1><a href="{% url 'roster_home' %}">UNC Baseball 2014</a></h1>
+<div class="col-md-4" id="leftside-main">
     
-<a class="twitter-timeline" href="https://twitter.com/DiamondHeels" data-widget-id="437763363121008641">Tweets by @DiamondHeels</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <h1 class="hidden-sm hidden-xs"><a href="{% url 'roster_home' %}">UNC Baseball 2014</a></h1>
+    <h1 class="hidden-md hidden-lg float-left"><a href="{% url 'roster_home' %}">UNC Baseball 2014</a></h1>
+    
+    <div class="show-this info-box hidden-sm hidden-xs">
+        <ul class="positions">
+            <li><p class="label">OF</p> Outfield</li>
+            <li><p class="label">INF</p> Infield</li>
+            <li><p class="label">LHP</p> Left-Handed Pitcher</li>
+            <li><p class="label">RHP</p> Right-Handed Pitcher</li>
+            <li><p class="label">C</p> Catcher</li>
+            <li><p class="label">1B</p> First Base</li>
+            <li><p class="label">2B</p> Second Base</li>
+            <li><p class="label">3B</p> Third Base</li>
+            <li><p class="label">SS</p> Short Stop</li>
+        </ul>
+    </div><!--end infobox-->
 
-
-
-<img src="{{ player.imgurl }}">
-
-</div>
+</div><!--end left side main-->
 
 <div class="col-md-8">
+<div class="panel-group col-md-12 col-sm-12 col-xs-12" id="accordion">
 <div class="panel panel-default">
 	<div class="panel-heading">
 	  <h4 class="panel-title">
@@ -56,19 +66,7 @@
                 </tbody>
             </table>
             </div>
-            <div class="show-this info-box hidden-sm hidden-xs">
-                <ul class="positions">
-                    <li><p class="label">OF</p>: Outfield</li>
-                    <li><p class="label">INF</p>: Infield</li>
-                    <li><p class="label">LHP</p>: Left-Handed Pitcher</li>
-                    <li><p class="label">RHP</p>: Right-Handed Pitcher</li>
-                    <li><p class="label">C</p>: Catcher</li>
-                    <li><p class="label">1B</p>: First Base</li>
-                    <li><p class="label">2B</p>: Second Base</li>
-                    <li><p class="label">3B</p>: Third Base</li>
-                    <li><p class="label">SS</p>: Short Stop</li>
-                </ul>
-            </div><!--end infobox-->
+            <!--INFO BOX WAS HERE-->
             </div>
         </div>
 </div><!--accordian-->
@@ -87,9 +85,24 @@
 	  </div>
 	</div>
     </div>
+<div class="panel panel-default">
+	<div class="panel-heading">
+	  <h4 class="panel-title">
+	    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+	    @DiamondHeels
+	    </a>
+	  </h4>
+	</div>
+        <div id="collapseThree" class="panel-collapse collapse">
+	  <div class="panel-body">
+            <a class="twitter-timeline" href="https://twitter.com/DiamondHeels" data-widget-id="437763363121008641">Tweets by @DiamondHeels</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	  </div>
+	</div>
+    </div>
 
 </div><!--accordian-->
-
+</div>
 </div><!--end title and roster row-->
 
 <div class="col-md-4 float-left">

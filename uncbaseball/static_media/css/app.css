@@ -1,15 +1,21 @@
-.box {
-    height: 100px;
-    weight: 100px;
-    border: 1px solid #000;
+.sideways {
+    -webkit-transform: rotate(90deg); 
+    -moz-transform: rotate(90deg);
+    display: block;
+    padding-bottom: 60%;
 }
 
 .float-left {
     float: left;
+    text-align: left;
 }
 
 body {
     font-family: 'Lato', Helevetica Neue, sans-serif;
+}
+
+.container {
+    height: auto;
 }
 
 iframe {
@@ -22,7 +28,7 @@ iframe {
 
 h1 {
     font-weight: 900;
-    padding: 10px;
+    padding-top: 0;
     color: #56a0d3;
     margin: 0;
     font-size: 72px;
@@ -40,9 +46,15 @@ h2 {
     background-attachment: fixed;
     background-position: 0;
     color: #2a6496;
-    border-bottom: 1px solid #56a0d3;
     margin: 0;
-    
+}
+
+h2 a {
+    color: #2a6496;
+}
+
+h2.player-name-small {
+    border-bottom: none;
 }
 
 h3 {
@@ -50,13 +62,15 @@ h3 {
     font-weight: 900;
     padding: 10px;
     color: #56a0d3;
-    background-color: #f4f4f4;
+    text-align: right;
+    border-right: #ddd solid 1px;
 }
 
 p.label {
     font-weight: bold;
-    color: #000;
+    color: #56a0d3;
     font-size: 12px;
+    text-transform: uppercase;
 }
 
 .title-left{
@@ -65,19 +79,33 @@ p.label {
 
 .row-margin {
     margin-top: 20px;
+    height: 100%;
 }
 
-.player-head {
-    
+a {
+    color: #56A0D3;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
+/*TABLE*/
 .table thead {
-    background-color: rgba(86, 160, 211, 0.2);
+    /*background-color: rgba(86, 160, 211, 0.2);*/
     color: #2a6496;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 11px;
+    background-color: #fff;
 }
 
 .table tbody {
     background-color: #fff;
+}
+
+.table tbody tr {
+    font-size: 12px;
 }
 
 .table tbody tr:hover {
@@ -98,11 +126,11 @@ p.label {
     border-left: 1px #000 solid;
 }
 
-
 .player-data:hover {
     background-color: #f4f4f4;
 }
 
+/*PLAYER FACTS*/
 .player-facts {
     padding: 0;
 }
@@ -119,12 +147,10 @@ p.label {
     border-top: 1px #56a0d3 solid;
 }
 
-a {
-    color: #56A0D3;
-}
-
-a:hover {
-    text-decoration: none;
+#leftside-player {
+    max-width: 300px;
+    height: 100%;
+    margin-top: 25px;
 }
 
 .mug {
@@ -139,11 +165,7 @@ a:hover {
     max-width: 100%;
 }
 
-#leftside {
-    
-}
-
-/*PANEL*/
+/*ACCORDION*/
 .panel-heading {
     border-radius: 0;
 }
@@ -161,13 +183,18 @@ h4.panel-title-sub {
 h4.panel-title {
     color: #56a0d3;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 h5 {
     font-weight: bold;
-    font-size: 24px;
-    color: #56a0d3;
+    color: #2a6496;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px;
+    font-size: 20px;
 }
 
 /*TOOLTIP*/
@@ -196,23 +223,51 @@ ul.positions {
     max-height: 350px;
     overflow-y: scroll;
     overflow-x: hidden;
-    border: #56a0d3 thin;
+    border: #56a0d3;
+}
+
+
+/*EFT SIDE MAIN*/
+#leftside-main {
+    border-right: #ddd solid 1px;
 }
 
 .info-box {
-    position: absolute;
-    top: 10px;
-    right: 20px;
+    position: relative;
     z-index: 1000;
     background-color: rgba(255, 255, 255, 0.95);
-    border: 1px #56a0d3 solid;
+    text-align: right;
 }
 
 .info-box ul {
+    position: absolute;
     list-style: none;
     font-size: 12px;
     padding: 10px;
     margin: 0;
+    top: 20px;
+    right: 0;
 }
 
-#map { height: 180px; }
+.show-image {
+    visibility: hidden;
+}
+
+.show-image:hover {
+    visibility: visible;
+}
+
+pre {
+    background: none;
+    font-family: inherit;
+    color: inherit;
+    font-size: inherit;
+    word-wrap: normal;
+    border: none;
+    word-break: normal;
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
